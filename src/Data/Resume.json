@@ -1,0 +1,61 @@
+{
+    "personal" : {
+        "name" : "Erwin Jared Larios Moreira",
+        "birhtDate" : "9 Octubre 1998",
+        "persinalId" :  101011101110001010110000101100010011100101,
+        "address": "14 calle C 5-33 zona 3",
+        "phone": 42869596,
+        "email": "lariosjared@outlook.com",
+        "facebook": "https://www.facebook.com/jared.larios.9/"
+    },
+    "education" : {
+        "highschool": {
+            "school": "Colegio Educacion en Linea",
+            "degree": "Bachillerato en Ciencias y Letras",
+            "status": {
+                "currentStatus" : "Graduado",
+                "initDate": "Enero 2016",
+                "graduationDate": "Octubre 2017",
+                "gp": 90,
+                "spotlight": "Ingles y matemáticas promedio: 95"
+            }
+        },
+        "certificate": [{
+                "college": "Intecap | CG1",
+                "deegree": "Técnico en Electrónica Industrial",
+                "status": {
+                    "currentStatus" : "Graduado",
+                    "initDate": "Enero 2015",
+                    "graduationDate": "Noviembre 2017",
+                    "gp": 80,
+                    "spotlight": "control de procesos promedio: 85"
+                }
+            },
+            {
+                "college": "BYU-Pathway | Brigham Young University Idaho",
+                "deegree": "Pathway Connect Certificate",
+                "status": {
+                    "currentStatus" : "Graduado",
+                    "initDate": "Septiembre 2020",
+                    "graduationDate": "Julio 2021",
+                    "gp": 97.47,
+                    "spotlight": "Primer semestre, promedio: A - 99.01 pts"
+                }
+            }
+        ],
+        "bachelor": {
+            "college": "BYU-Idaho | Brigham Young University Idaho",
+            "deegree": "Licenciatura en Tecnología Aplicada BS",
+            "status": {
+                "certificate": {
+                    "name": "Certificate of Web and Computer Programming",
+                    "totalClasses": 7,
+                    "passingClasses": ["Programming Building Blocks", "Programming with Functions", "JavaScript Language", "Programming with Classes", "Web Frontend Development I", "Web Fundamentals"],
+                    "currentClasses": "Career Development"
+                },
+                "asociate": "coming soon",
+                "bachelor": "coming soon" 
+            }
+        }
+    }
+}
