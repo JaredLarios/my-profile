@@ -1,8 +1,8 @@
 {
     "personal" : {
-        "name" : "Erwin Jared Larios Moreira",
+        "myName" : "Erwin Jared Larios Moreira",
+        "description": "Desarrollo, Aprendo y Mejoro constantemente.",
         "birhtDate" : "9 Octubre 1998",
-        "persinalId" :  101011101110001010110000101100010011100101,
         "address": "14 calle C 5-33 zona 3",
         "phone": 42869596,
         "email": "lariosjared@outlook.com",
@@ -48,7 +48,7 @@
             "deegree": "Licenciatura en Tecnología Aplicada BS",
             "status": {
                 "certificate": {
-                    "name": "Certificate of Web and Computer Programming",
+                    "myName": "Certificate of Web and Computer Programming",
                     "totalClasses": 7,
                     "passingClasses": ["Programming Building Blocks", "Programming with Functions", "JavaScript Language", "Programming with Classes", "Web Frontend Development I", "Web Fundamentals"],
                     "currentClasses": "Career Development"

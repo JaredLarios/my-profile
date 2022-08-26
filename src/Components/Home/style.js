@@ -1,7 +1,12 @@
 import styled, {css} from "styled-components";
 
 export const Header = styled.div`
-
+>a {
+    text-decoration: underline !important;
+}
+>ul .MuiSvgIcon-root {
+    color:  #3b5998  !important;
+}
 `;
 
 export const Slider = styled.div`
