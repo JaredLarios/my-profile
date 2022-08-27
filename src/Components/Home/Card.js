@@ -58,19 +58,17 @@ const Card = (props) => {
                     (uniData) => {
                         return(
                         <div>
-                            <ul>
-                                <li>{uniData.degree}</li>
-                                <li>{uniData.myName}</li>
-                                <li> {uniData.totalClasses}</li>
-                            </ul>
-                            <h3>Clases Aprovadas</h3>
+                            <h4>{uniData.degree}</h4>
+                            <h3>{uniData.myName}</h3>
+                            <p>Total de Clases: {uniData.totalClasses}</p>
+                            <label>Clases Aprovadas:</label>
                             <ul>
                             {
                             uniData.passingClasses.map(
                                 (classes) => {return (<li>{classes}</li>)})
                             }
                             </ul>
-                            <h3>Clases Actualmente em Curso</h3>
+                            <label>Clases Actualmente en Curso</label>
                             <ul>
                             {
                             uniData.currentClasses.map(

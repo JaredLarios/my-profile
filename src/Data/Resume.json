@@ -45,11 +45,11 @@
         ],
         "bachelor": {
             "college": "BYU-Idaho | Brigham Young University Idaho",
-            "deegree": "Licenciatura en Tecnología Aplicada BS",
+            "degree": "Licenciatura en Tecnología Aplicada BS",
             "status": [
                  {
                     "degree": "Certificate degree",
-                    "myName": "Certificate of Web and Computer Programming",
+                    "myName": "Web and Computer Programming",
                     "totalClasses": 7,
                     "passingClasses": ["Programming Building Blocks", "Programming with Functions", "JavaScript Language", "Programming with Classes", "Web Frontend Development I", "Web Fundamentals"],
                     "missingClasses": ["Career Development"],
@@ -67,7 +67,7 @@
                 },
                 {
                     "degree": "Bachelor",
-                    "myName": "Certificate of Web Development",
+                    "myName": "Web Development",
                     "totalClasses": 7,
                     "passingClasses": [""],
                     "currentClasses": [""],

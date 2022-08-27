@@ -6,12 +6,15 @@ const Body = () => {
     return ( 
         <Education>
             <h2>Estudios</h2>
-        
+
+            {/*HighSchool*/}
             <Card 
             name={resume.education.highschool.school}
             degree={resume.education.highschool.degree}
             status={resume.education.highschool.status}
             />  
+
+            {/*Certificates*/}
             {
                 resume.education.certificate.map(
                     (data) => {
@@ -25,7 +28,9 @@ const Body = () => {
                     }
                 )
             }
-                    
+                
+            {/*University*/}
+            
             <Card 
             type="university"
             name={resume.education.bachelor.college}
