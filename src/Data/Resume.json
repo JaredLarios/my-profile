@@ -22,7 +22,7 @@
         },
         "certificate": [{
                 "college": "Intecap | CG1",
-                "deegree": "Técnico en Electrónica Industrial",
+                "degree": "Técnico en Electrónica Industrial",
                 "status": {
                     "currentStatus" : "Graduado",
                     "initDate": "Enero 2015",
@@ -33,7 +33,7 @@
             },
             {
                 "college": "BYU-Pathway | Brigham Young University Idaho",
-                "deegree": "Pathway Connect Certificate",
+                "degree": "Pathway Connect Certificate",
                 "status": {
                     "currentStatus" : "Graduado",
                     "initDate": "Septiembre 2020",
@@ -46,16 +46,34 @@
         "bachelor": {
             "college": "BYU-Idaho | Brigham Young University Idaho",
             "deegree": "Licenciatura en Tecnología Aplicada BS",
-            "status": {
-                "certificate": {
+            "status": [
+                 {
+                    "degree": "Certificate degree",
                     "myName": "Certificate of Web and Computer Programming",
                     "totalClasses": 7,
                     "passingClasses": ["Programming Building Blocks", "Programming with Functions", "JavaScript Language", "Programming with Classes", "Web Frontend Development I", "Web Fundamentals"],
-                    "currentClasses": "Career Development"
+                    "missingClasses": ["Career Development"],
+                    "currentClasses": ["Career Development"],
+                    "endDate": "Dic 2022"
                 },
-                "asociate": "coming soon",
-                "bachelor": "coming soon" 
-            }
+                {
+                    "degree": "Asociate",
+                    "myName": "System Administration",
+                    "totalClasses": 8,
+                    "passingClasses": ["Networking"],
+                    "missingClasses": ["Network Design I", "Systems Security I", "Math for the Real World", "Operating Systems I", "Writing & Reasoning Foundations", "Adv Writing in Pro Contexts", "Operating Systems II"],
+                    "currentClasses": ["Network Design I"],
+                    "endDate": "Apr 2024"
+                },
+                {
+                    "degree": "Bachelor",
+                    "myName": "Certificate of Web Development",
+                    "totalClasses": 7,
+                    "passingClasses": [""],
+                    "currentClasses": [""],
+                    "endDate": "Apr 2028"
+                }
+            ]
         }
     }
 }
