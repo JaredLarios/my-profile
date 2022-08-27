@@ -14,7 +14,7 @@ export const Slider = styled.div`
 `;
 
 
-export const Body = styled.div`
+export const Education = styled.div`
 
 `;
 export const Footer = styled.div`
@@ -23,6 +23,6 @@ export const Footer = styled.div`
 export const Button = styled.div`
 
 `;
-export const Card = styled.div`
+export const CardStyle = styled.div`
 
 `;
