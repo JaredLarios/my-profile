@@ -44,7 +44,7 @@ const Card = (props) => {
         if (data !== "university") {
             return(
                 <ul>
-                    <li>{props.status.current}</li>
+                    <li>{props.status.currentStatus}</li>
                     <li>{props.status.initDate} - {props.status.graduationDate}</li>
                     <li>Promedio: {myGp(props.status.gp)} ( {props.status.gp}pts )</li>
                     <li>{props.status.spotlight}pts</li>
