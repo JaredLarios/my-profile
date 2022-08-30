@@ -18,7 +18,7 @@ const Menu = () => {
                     setSelected(!selected);
                 }}
                 >
-                <MenuIcon className="icon" />
+                <MenuIcon className="icon" sx={{ fontSize: 35 }} />
                 </ToggleButton>
                 <MyOpt selection={selected}>
                     <li><a>Inicio</a></li>

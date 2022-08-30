@@ -1,6 +1,7 @@
 import styled, {css} from "styled-components";
 
 export const Header = styled.div`
+padding-top: 35px;
 >a {
     text-decoration: underline !important;
 }
