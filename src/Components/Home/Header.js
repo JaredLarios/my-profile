@@ -23,15 +23,19 @@ const Head = (props) => {
             <div>
               <img src='' alt='photo' />
             </div>
-            <h1>{resume.personal.myName}</h1>
-            <p>{resume.personal.description}</p>
+            <section className='intro'>
+              <h1>{resume.personal.myName}</h1>
+              <p>{resume.personal.description}</p>
+            </section>
+            <section className='p-info'>
             <h2>Personal information:</h2>
-            <ul>
-              <li><strong>Fecha de nacimiento:</strong> {resume.personal.birhtDate}</li>
-              <li><strong>Phone:</strong> {resume.personal.phone}</li>
-              <li><strong>Correo:</strong> {resume.personal.email}</li>
-              <li><a href={resume.personal.facebook}> <FacebookIcon></FacebookIcon> </a></li>
-            </ul>
+              <ul>
+                <li><strong>Fecha de nacimiento:</strong> {resume.personal.birhtDate}</li>
+                <li><strong>Phone:</strong> {resume.personal.phone}</li>
+                <li><strong>Correo:</strong> {resume.personal.email}</li>
+                <li><a href={resume.personal.facebook}> <FacebookIcon></FacebookIcon> </a></li>
+              </ul>
+            </section>
           </PersonalCard>
       </Header>
   )

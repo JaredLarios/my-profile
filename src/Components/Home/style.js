@@ -29,11 +29,18 @@ export const PersonalCard = styled.div`
         border-radius: 50%;
         width: 150px;
         height: 150px;
-        margin: auto;
+        margin: 25% auto;
+
+        grid-column: 1/2;
+        grid-row: 1/3;
     }
-    >h1 {
+    >.intro {
         grid-column: 2/4;
-        
+        grid-row: 1/2;
+    }
+    >.p-info {
+        grid-column: 2/4;
+        grid-row: 2/3;
     }
 `
 
