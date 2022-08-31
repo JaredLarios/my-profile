@@ -1,4 +1,4 @@
-import styled, {css, keyframes} from "styled-components";
+import styled, {css} from "styled-components";
 
 export const MyMenu = styled.div`
     display: flex;
@@ -9,8 +9,12 @@ export const MyMenu = styled.div`
     left: 0;
     right: 0;
     background: linear-gradient(-45deg, var(--secondary), var(--primary), var(--thirth));
-    >img{
-        
+
+    z-index: 2;
+
+    >h3{
+       color: white;
+       margin-left: 15px; 
     }
 `
 
@@ -18,11 +22,12 @@ export const MyOpt = styled.ul`
     position:fixed;
     left: 0;
     right: 0;
-    top: 40px;
+    top: 45px;
     margin-right: auto;
     padding: 0px 15px 0px;
     list-style: none;
     background-color: var(--dark-back);
+    z-index: 1;
 
     >li {
         color: white;
@@ -39,15 +44,6 @@ export const MyOpt = styled.ul`
     ` : css`
     display: none;
     `}
-
-`
-export const myAnimation = keyframes`
-        from {
-            transform: rotate(0deg) !important;
-        }
-        to {
-            transform: rotate(180deg) !important;
-        }
 `
 
 export const MyHamMenu = styled.div`

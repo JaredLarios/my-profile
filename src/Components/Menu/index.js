@@ -7,7 +7,7 @@ const Menu = () => {
     const [selected, setSelected] = useState()
     return ( 
         <MyMenu>
-            <img src="" alt="Logo"/>
+            <h3>Jared Larios</h3>
 
             <MyHamMenu>
                 <ToggleButton
