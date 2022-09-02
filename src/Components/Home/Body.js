@@ -1,11 +1,37 @@
 import { Education } from "./style";
 import Card from "./Card";
 import resume from '../../Data/Resume.json'
+import { ToggleButton, ToggleButtonGroup } from "@mui/material";
+import { useState } from "react";
 
 const Body = () => {
+
+    const [kindEdu, setEdu] = useState("")
+
     return ( 
         <Education>
             <h2>Estudios</h2>
+
+            {/* Buttons */}
+            
+            <ToggleButtonGroup
+            value={kindEdu}
+            >
+                <ToggleButton
+                value="university"
+                >
+                    Universidad
+                </ToggleButton>
+                <ToggleButton
+                value="certificates"
+                >
+                    Tecnicos/Diplomados
+                </ToggleButton>
+                <ToggleButton
+                value="highschool"
+                    >Bachillerato
+                </ToggleButton>
+            </ToggleButtonGroup>
 
             {/*HighSchool*/}
             <Card 

@@ -22,7 +22,7 @@ export const MyOpt = styled.ul`
     position:fixed;
     left: 0;
     right: 0;
-    top: 45px;
+    top: 42px;
     margin-right: auto;
     padding: 0px 15px 0px;
     list-style: none;

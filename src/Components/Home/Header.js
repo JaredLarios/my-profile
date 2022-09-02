@@ -5,6 +5,7 @@ import FacebookIcon from '@mui/icons-material/Facebook'
 import slider900 from '../../images/slider-900.jpg'
 import slider500 from '../../images/slider-500.jpg'
 import slider100 from '../../images/slider-100.jpg'
+import photoPorfile from '../../images/photo.jpg'
 
 const Head = (props) => {
   return (
@@ -17,18 +18,19 @@ const Head = (props) => {
                 ${slider500} 768w,
                 ${slider900} 1280w
                 `}
+                alt='slider'
               />
           </Slider>
           <PersonalCard>
             <div>
-              <img src='' alt='photo' />
+              <img src={photoPorfile} alt='me' />
             </div>
             <section className='intro'>
               <h1>{resume.personal.myName}</h1>
               <p>{resume.personal.description}</p>
             </section>
             <section className='p-info'>
-            <h2>Personal information:</h2>
+            {/* <h2>Personal information:</h2> */}
               <ul>
                 <li><strong>Fecha de nacimiento:</strong> {resume.personal.birhtDate}</li>
                 <li><strong>Phone:</strong> {resume.personal.phone}</li>
