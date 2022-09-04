@@ -1,4 +1,4 @@
-import styled, {css} from "styled-components";
+import styled from "styled-components";
 
 export const Header = styled.div`
 //padding-top: 35px;
@@ -8,13 +8,13 @@ export const Header = styled.div`
     >ul .MuiSvgIcon-root {
         color:  #3b5998  !important;
     }
-    `;
+`
 
-    export const Slider = styled.div`
-        >img{
-            width: 100%;
-        }
-`;
+export const Slider = styled.div`
+    >img{
+        width: 100%;
+    }
+`
 
 export const PersonalCard = styled.div`
     background-color: var(--card-back);
@@ -85,7 +85,33 @@ export const Button = styled.div`
 
 `;
 export const CardStyle = styled.div`
-    border: red solid 6px;
     margin: 15px 0;
+    padding: 10px 25px;
     border-radius: 15px;
+    background-color: var(--card-back);
+    position: relative;
+    >.Graduation {
+        color: yellow;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+    >h3 {
+        margin: 0;
+        padding-top: 0px;
+    }
+    >h2 {
+        font-size: 1.8rem;
+    }
+    >p {
+        font-size: 15px;
+        text-align: center;
+    }
 `;
+
+export const List = styled.ul`
+    list-style: none;
+    padding: 0;
+    text-align: left;
+
+`

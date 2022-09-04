@@ -11,6 +11,40 @@ const Body = () => {
 
     const [kindEdu, setEdu] = useState(0)
 
+    const infoDisplay = (number) => {
+        if (number === 0) {
+            return (<Card 
+                type="university"
+                name={resume.education.bachelor.college}
+                degree={resume.education.bachelor.degree}
+                status={resume.education.bachelor.status}
+                />)
+        }
+        else if (number === 1) {
+            return (<>
+                {
+                resume.education.certificate.map(
+                    (data) => {
+                        return(
+                        <Card
+                        name={data.college}
+                        degree={data.degree}
+                        status={data.status}
+                        />
+                        )
+                    })
+                }
+            </>)
+        }
+        else if (number === 2) {
+            return (<Card
+                name={resume.education.highschool.school}
+                degree={resume.education.highschool.degree}
+                status={resume.education.highschool.status}
+            />)
+        }
+    }
+
     return ( 
         <Education>
             <h2>Estudios</h2>
@@ -28,52 +62,9 @@ const Body = () => {
                 <BottomNavigationAction label="Bachillerato" icon={<AutoStoriesIcon />} />
             </BottomNavigation>
             
-            { (() => {
-                switch(kindEdu) {
-                    case 0: 
-                    {/*University*/}
-                    return (<Card 
-                            type="university"
-                            name={resume.education.bachelor.college}
-                            degree={resume.education.bachelor.degree}
-                            status={resume.education.bachelor.status}
-                            />);
-                    break;
-                    
-                    case 1: 
-                    {/*Certificates*/}
-                    return (<>
-                            {
-                            resume.education.certificate.map(
-                                (data) => {
-                                    return(
-                                    <Card
-                                    name={data.college}
-                                    degree={data.degree}
-                                    status={data.status}
-                                    />
-                                    )
-                                })
-                            }
-                        </>);
-                    break;
-                    
-                    case 2: 
-                        {/*HighSchool*/}
-                        return (<Card
-                                name={resume.education.highschool.school}
-                                degree={resume.education.highschool.degree}
-                                status={resume.education.highschool.status}
-                                />);
-                        break;
-
-                    default:
-                        return null;
-                        break;
-                    }
-                })()
+            { 
+                infoDisplay(kindEdu)
             }
-
         
                 
         </Education>

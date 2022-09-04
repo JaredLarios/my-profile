@@ -1,4 +1,6 @@
-import { CardStyle } from "./style";
+import { CardStyle, List } from "./style";
+import SchoolIcon from '@mui/icons-material/School';
+
 
 const Card = (props) => {
     const myGp = (gpa) => {
@@ -42,13 +44,19 @@ const Card = (props) => {
 
     const statusOp = (data) =>{
         if (data !== "university") {
+
+            const graduatioStatus = props.status.currentStatus
+
             return(
-                <ul>
-                    <li>{props.status.currentStatus}</li>
-                    <li>{props.status.initDate} - {props.status.graduationDate}</li>
-                    <li>Promedio: {myGp(props.status.gp)} ( {props.status.gp}pts )</li>
-                    <li>{props.status.spotlight}pts</li>
-                </ul>
+                <>
+                    {(graduatioStatus === 'Graduado') ? <SchoolIcon className="Graduation" /> : '' }
+                    <p>{props.status.initDate} - {props.status.graduationDate}</p>
+                    <List>
+                        <li>{graduatioStatus}</li>
+                        <li>Promedio: {myGp(props.status.gp)} ( {props.status.gp}pts )</li>
+                        <li>{props.status.spotlight}pts</li>
+                    </List>
+                </>
             )
         }
         else {
@@ -57,25 +65,25 @@ const Card = (props) => {
                 {props.status.map(
                     (uniData) => {
                         return(
-                        <div>
+                        <>
                             <h4>{uniData.degree}</h4>
                             <h3>{uniData.myName}</h3>
                             <p>Total de Clases: {uniData.totalClasses}</p>
-                            <label>Clases Aprovadas:</label>
-                            <ul>
+                            <p>Clases Aprovadas:</p>
+                            <List>
                             {
                             uniData.passingClasses.map(
                                 (classes) => {return (<li>{classes}</li>)})
                             }
-                            </ul>
-                            <label>Clases Actualmente en Curso</label>
-                            <ul>
+                            </List>
+                            <p>Clases Actualmente en Curso</p>
+                            <List>
                             {
                             uniData.currentClasses.map(
                                 (classes) => { return ( <li>{classes}</li>) })
                             }
-                            </ul>
-                        </div>
+                            </List>
+                        </>
                         )
                     }
                 )}
