@@ -3,6 +3,7 @@ import SchoolIcon from '@mui/icons-material/School';
 
 
 const Card = (props) => {
+
     const myGp = (gpa) => {
         if ( gpa > 96) {
             return ("A+")
@@ -45,14 +46,14 @@ const Card = (props) => {
     const statusOp = (data) =>{
         if (data !== "university") {
 
-            const graduatioStatus = props.status.currentStatus
+            const graduationStatus = props.status.currentStatus
 
             return(
                 <>
-                    {(graduatioStatus === 'Graduado') ? <SchoolIcon className="Graduation" /> : '' }
+                    {(graduationStatus === 'Graduado') ? <SchoolIcon className="Graduation" /> : '' }
                     <p>{props.status.initDate} - {props.status.graduationDate}</p>
                     <List>
-                        <li>{graduatioStatus}</li>
+                        <li>{graduationStatus}</li>
                         <li>Promedio: {myGp(props.status.gp)} ( {props.status.gp}pts )</li>
                         <li>{props.status.spotlight}pts</li>
                     </List>

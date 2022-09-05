@@ -90,11 +90,26 @@ export const CardStyle = styled.div`
     border-radius: 15px;
     background-color: var(--card-back);
     position: relative;
+    border: 5px solid var(--transparent);
     >.Graduation {
-        color: yellow;
+        color: var(--card-back);
+        border-radius: 50%;
+        border: 5px solid white;
+        background-color: white;
         position: absolute;
         right: 15px;
         top: 15px;
+    }
+    &:hover > .Graduation {
+            color: gold;
+            background-color: var(--secondary);
+            border: 5px solid var(--secondary);
+    }
+    .Graduation > &:hover {
+            border: 5px solid yellow;
+    }
+    &:hover {
+        border: 5px solid var(--secondary);
     }
     >h3 {
         margin: 0;
