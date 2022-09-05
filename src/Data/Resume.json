@@ -20,28 +20,29 @@
                 "spotlight": "Ingles y matemáticas promedio: 95 "
             }
         },
-        {
-            "college": "BYU-Pathway | Brigham Young University Idaho",
-            "degree": "Pathway Connect Certificate",
-            "status": {
-                "currentStatus" : "Graduado",
-                "initDate": "Septiembre 2020",
-                "graduationDate": "Julio 2021",
-                "gp": 97.47,
-                "spotlight": "Primer semestre - promedio: A - 99.01 "
-            },
-            "certificate": [{
-                    "college": "Intecap | CG1",
-                    "degree": "Técnico en Electrónica Industrial",
-                    "status": {
-                        "currentStatus" : "Graduado",
-                        "initDate": "Enero 2015",
-                        "graduationDate": "Noviembre 2017",
-                        "gp": 80,
-                        "spotlight": "control de procesos promedio: 85 "
-                    }
+        "certificate": [
+            {
+                "college": "BYU-Pathway | Brigham Young University Idaho",
+                "degree": "Pathway Connect Certificate",
+                "status": {
+                    "currentStatus" : "Graduado",
+                    "initDate": "Septiembre 2020",
+                    "graduationDate": "Julio 2021",
+                    "gp": 97.47,
+                    "spotlight": "Primer semestre - promedio: A - 99.01 "
                 }
-        }
+            },
+            {
+                "college": "Intecap | CG1",
+                "degree": "Técnico en Electrónica Industrial",
+                "status": {
+                    "currentStatus" : "Graduado",
+                    "initDate": "Enero 2015",
+                    "graduationDate": "Noviembre 2017",
+                    "gp": 80,
+                    "spotlight": "control de procesos promedio: 85 "
+                }
+            }
         ],
         "bachelor": {
             "college": "BYU-Idaho | Brigham Young University Idaho",
