@@ -102,13 +102,16 @@ export const CardStyle = styled.div`
     }
     &:hover > .Graduation {
             color: gold;
+            transition: 0.5s;
             background-color: var(--secondary);
             border: 5px solid var(--secondary);
     }
     .Graduation > &:hover {
+            transition: 0.5s;
             border: 5px solid yellow;
     }
     &:hover {
+        transition: 0.75s;
         border: 5px solid var(--secondary);
     }
     >h3 {
