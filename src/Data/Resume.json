@@ -128,11 +128,32 @@
         ],
         "projects": [
             {
-                "name": "",
-                "progLang" : "",
-                "description": "",
-                "link": "",
-                "status": ""       
+                "name": "Clone de Twitter",
+                "progLang" : "React y Firebase",
+                "description": "Proyecto personal de red social con funcionalidad parecidas a las de twitter con renderizacion instantanea, manejo de usuarios y publicaciones. Puede registrarse o ingresar con las credenciales sample@gmail.com con contraseña 123456789.",
+                "link": "https://jed-flashreact.web.app/",
+                "status": "40% Terminado"       
+            },
+            {
+                "name": "Clone de Space Invaders",
+                "progLang" : "Python",
+                "description": "Proyecto de universidad BYU de videojuego de naves espaciales.",
+                "link": "https://jaredlarios.github.io/wdd230/tis/",
+                "status": "100% Terminado"       
+            }
+            {
+                "name": "Chamber",
+                "progLang" : "HTML, CSS, JavaScript",
+                "description": "Pagina informativa sobre negocios guatemaltecos.",
+                "link": "https://jaredlarios.github.io/wdd230/chamber/",
+                "status": "100% Terminado"       
+            },
+            {
+                "name": "Temple Inn and Suites",
+                "progLang" : "HTML, CSS, JavaScript",
+                "description": "Proyecto de universidad BYU de pagina informativa y de resercaciones sobre linea de hoteles en los estaods unidos con servicios multiples con enfoque familiar.",
+                "link": "https://jaredlarios.github.io/wdd230/tis/",
+                "status": "100% Terminado"       
             }
         ]
     }
