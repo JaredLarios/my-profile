@@ -136,10 +136,10 @@
             "status": "40% Terminado"       
         },
         {
-            "name": "Clone de Space Invaders",
+            "name": "Space Ship",
             "progLang" : "Python",
             "description": "Proyecto de universidad BYU de videojuego de naves espaciales.",
-            "link": "https://jaredlarios.github.io/wdd230/tis/",
+            "link": "https://github.com/JaredLarios/cse210-Team-Project/tree/main/game/space-ship/space-ship",
             "status": "100% Terminado"       
         },
         {
