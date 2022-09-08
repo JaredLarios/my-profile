@@ -38,7 +38,7 @@ export const PersonalCard = styled.div`
         grid-row: 1/3;
         >img {
             position: absolute;
-            top: -255px;
+            top: -268px;
             width: 10.5rem;
             height: 10.5rem;
             object-fit: cover;
@@ -66,7 +66,7 @@ export const PersonalCard = styled.div`
             padding: 0 12px;
         }
     }
-    @media only screen and (min-width: 600px) {
+    @media only screen and (min-width: 250px) {
         >div {
             grid-column: 1/2;
             >img{
@@ -74,6 +74,12 @@ export const PersonalCard = styled.div`
                 top: -115px;
             }
         }
+        >.p-info {
+            transition: 1.5s;
+            margin: 0 0.5rem 0 45%;
+        }
+    }
+    @media only screen and (min-width: 550px){
         >.p-info {
             transition: 1.5s;
             margin: 0 0.5rem 0 35%;
