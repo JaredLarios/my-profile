@@ -34,11 +34,11 @@ export const PersonalCard = styled.div`
         width: 150px;
         height: 150px;
 
-        grid-column: 1/2;
+        grid-column: 1/4;
         grid-row: 1/3;
         >img {
             position: absolute;
-            top: -115px;
+            top: -255px;
             width: 10.5rem;
             height: 10.5rem;
             object-fit: cover;
@@ -59,10 +59,24 @@ export const PersonalCard = styled.div`
     >.p-info {
         grid-column: 1/4;
         grid-row: 1/2;
-        margin: 0 0.5rem 0 170px;
+        max-width: 60%;
+        margin: auto;
         >ul {
             list-style: none;
             padding: 0 12px;
+        }
+    }
+    @media only screen and (min-width: 600px) {
+        >div {
+            grid-column: 1/2;
+            >img{
+                transition: 1.5s;
+                top: -115px;
+            }
+        }
+        >.p-info {
+            transition: 1.5s;
+            margin: 0 0.5rem 0 35%;
         }
     }
 `
@@ -85,12 +99,13 @@ export const Button = styled.div`
 
 `;
 export const CardStyle = styled.div`
-    margin: 15px 0;
+    margin: 15px auto;
     padding: 10px 25px;
     border-radius: 15px;
     background-color: var(--card-back);
     position: relative;
     border: 5px solid var(--transparent);
+    max-width: 555px;
     >.Graduation {
         color: var(--card-back);
         border-radius: 50%;
