@@ -68,7 +68,7 @@ export const PersonalCard = styled.div`
 `
 
 
-export const Education = styled.div`
+export const CardHolder = styled.div`
     >h2 {
         text-align: center;
         margin: 6.3rem auto;
@@ -124,6 +124,23 @@ export const CardStyle = styled.div`
     >p {
         font-size: 15px;
         text-align: center;
+    }
+    >.pro {
+        >h2{
+            max-width: 60%;
+        }
+        >.corner {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            max-width: 35%;
+        }
+        >div.hide {
+            display: none;
+        }
+        &:hover > .hide{
+            display: block;
+        }
     }
 `;
 

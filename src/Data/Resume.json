@@ -97,32 +97,32 @@
         {
             "contractor": "Dental Clinic 3D",
             "position": "Back Office",
-            "initTime": "Enero, 2021",
-            "endTime": "Julio, 2022",
+            "initTime": "Enero 2021",
+            "endTime": "Julio 2022",
             "description": "Responsable del mail marketing, servicio al cliente, encuestas de satisfacción, reporte de pacientes morosos y del inventario.",
             "spotlight": "Analisis de mas de 3200 archivos con expedientes clinicos y financieros, digitalizaciones y depuracion fisico y en sistema Dentalink."
         },
         {
             "contractor": "R&J Multiservicios",
             "position": "Técnico",
-            "initTime": "Octubre, 2021",
-            "endTime": "Diciembre, 2021",
+            "initTime": "Octubre 2021",
+            "endTime": "Diciembre 2021",
             "description": "Responsable de hacer instalaciones electricas, reparacion de equipo, mantenimiento de infraestructura en edificios.",
             "spotlight": "Temporalmente lider de instalaciones electricas y mantenimiento."
         },
         {
             "contractor": "Iglesia de Jesucristo de los Santos de los Ultimso Dias",
             "position": "Voluntario de programa de mejoramiento de vida en Honduras",
-            "initTime": "Junio, 2018",
-            "endTime": "Junio, 2020",
+            "initTime": "Junio 2018",
+            "endTime": "Junio 2020",
             "description": "Responsable de capacitar, enseñar, servir y apoyar a personas en honduras a mejorar su calidad de vida.",
             "spotlight": "Capacitar a diversos norteamericanos a aprender español y a adaptarse a las normas y deberes que exige el programa."
         },
         {
             "contractor": "Esinsa",
             "position": "Técnico | Practicante",
-            "initTime": "Agosto, 2017",
-            "endTime": "Noviembre, 2017",
+            "initTime": "Agosto 2017",
+            "endTime": "Noviembre 2017",
             "description": "Elaboración de gabinetes, tableros y paneles eléctricos",
             "spotlight": "Participación en instalación de tablero de iluminación en el centro comercial Okland Mall. Colaboración en la implementación de instalación electica, para cumplir estándares adecuados, en una fábrica de Cardamomo."
         }
