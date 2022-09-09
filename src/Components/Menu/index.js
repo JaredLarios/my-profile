@@ -9,6 +9,7 @@ const Menu = () => {
         <MyMenu>
             <h3>Jared Larios</h3>
 
+                {/*   
             <MyHamMenu>
                 <ToggleButton
                 className="toggle"
@@ -18,6 +19,7 @@ const Menu = () => {
                     setSelected(!selected);
                 }}
                 >
+                                     
                 <MenuIcon className="icon" sx={{ fontSize: 35 }} />
                 </ToggleButton>
                 <MyOpt selection={selected}>
@@ -28,6 +30,7 @@ const Menu = () => {
                     <li><a>Contactame</a></li>
                 </MyOpt>
             </MyHamMenu>
+                    */}
         </MyMenu>
      );
 }

@@ -58,7 +58,7 @@ const Career = () => {
 
     return ( 
         <CardHolder>
-            <h2>Experiencia Profesional</h2>
+            <h2 id="Career">Experiencia Profesional</h2>
 
             {/* Buttons */}
             

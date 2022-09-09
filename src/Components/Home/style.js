@@ -1,4 +1,4 @@
-import styled, {css} from "styled-components";
+import styled from "styled-components";
 
 export const Header = styled.div`
 //padding-top: 35px;
@@ -90,6 +90,13 @@ export const PersonalCard = styled.div`
             margin: 0 0.5rem 0 35%;
         }
     }
+@media only screen and (min-width: 1440px){
+    width: 33%;
+    margin: 0;
+    position: fixed;
+    top: 355px;
+    left: 5%;
+}
 `
 
 
@@ -174,11 +181,6 @@ export const CardStyle = styled.div`
 export const CardShape = styled.div`
 @media only screen and (min-width: 768px){
     display: grid;
-    ${props => {
-        (props.opt !== 1) ? 
-        css`grid-template-columns: repeat(1, 1fr);` 
-        : css`grid-template-columns: repeat(2, 1fr);` }
-    }
     grid-gap: 0 15px;
 }
 @media only screen and (min-width: 1024px){
@@ -201,7 +203,8 @@ export const BodyDesign = styled.div`
         max-width: 855px;
     }
     @media only screen and (min-width: 1440px){
-        max-width: 1055px;
+        max-width: 53%;
+        margin: 0px 8% 0 auto;
     }
 `
 

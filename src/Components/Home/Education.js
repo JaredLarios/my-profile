@@ -63,7 +63,7 @@ const Education = () => {
                 <BottomNavigationAction label="Bachillerato" icon={<AutoStoriesIcon />} />
             </BottomNavigation>
 
-            <CardShape opt={x => ({kindEdu}) }>
+            <CardShape>
                 { 
                     infoDisplay(kindEdu)
                 }
