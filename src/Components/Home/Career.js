@@ -2,7 +2,7 @@ import resume from "../../Data/Resume.json"
 import CardCareer from "./CardCareer"
 import CardProjects from "./CardProj"
 import { useState } from "react";
-import { CardHolder } from "./style";
+import { CardHolder, CardShape } from "./style";
 import CodeIcon from '@mui/icons-material/Code';
 import WorkIcon from '@mui/icons-material/Work';
 import { BottomNavigationAction , BottomNavigation} from "@mui/material";
@@ -72,10 +72,12 @@ const Career = () => {
                 <BottomNavigationAction label="Laboral" icon={<WorkIcon />} />
                 <BottomNavigationAction label="Proyectos" icon={<CodeIcon />} />
             </BottomNavigation>
-            
+
+            <CardShape>
             { 
                 infoDisplay(kindPro)
             }
+            </CardShape>
 
         </CardHolder>
      )

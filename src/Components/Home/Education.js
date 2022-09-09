@@ -1,4 +1,4 @@
-import { CardHolder } from "./style";
+import { CardHolder, CardShape } from "./style";
 import Card from "./Card";
 import resume from '../../Data/Resume.json'
 import { BottomNavigationAction , BottomNavigation} from "@mui/material";
@@ -62,11 +62,12 @@ const Education = () => {
                 <BottomNavigationAction label="Tecnicos / Diplomados" icon={<BadgeIcon />} />
                 <BottomNavigationAction label="Bachillerato" icon={<AutoStoriesIcon />} />
             </BottomNavigation>
-            
-            { 
-                infoDisplay(kindEdu)
-            }
-        
+
+            <CardShape opt={x => ({kindEdu}) }>
+                { 
+                    infoDisplay(kindEdu)
+                }
+            </CardShape>
                 
         </CardHolder>
      );

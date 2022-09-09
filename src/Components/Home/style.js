@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, {css} from "styled-components";
 
 export const Header = styled.div`
 //padding-top: 35px;
@@ -13,6 +13,10 @@ export const Header = styled.div`
 export const Slider = styled.div`
     >img{
         width: 100%;
+        object-fit: cover;
+        @media only screen and (min-width: 768px){
+            max-height: 350px;
+        }
     }
 `
 
@@ -20,12 +24,13 @@ export const PersonalCard = styled.div`
     background-color: var(--card-back);
     border-radius: 15px;
     margin: auto;
+    max-width: 555px;
 
 
     display: grid;
     grid-template-columns: repeat(3,1fr);
 
-    max-width: 555px;
+
     //min-width: 489px;
     >div{
         border-radius: 50%;
@@ -98,20 +103,14 @@ export const CardHolder = styled.div`
         position: flex !important;
     }
 `;
-export const Footer = styled.div`
-
-`;
-export const Button = styled.div`
-
-`;
 export const CardStyle = styled.div`
-    margin: 15px auto;
-    padding: 10px 25px;
+    width: 95%;
+    margin: 5px auto;
+    padding: 10px 5px;
     border-radius: 15px;
     background-color: var(--card-back);
     position: relative;
     border: 5px solid var(--transparent);
-    max-width: 555px;
     >.Graduation {
         color: var(--card-back);
         border-radius: 50%;
@@ -138,9 +137,11 @@ export const CardStyle = styled.div`
     >h3 {
         margin: 0;
         padding-top: 0px;
+        max-width: 80%;
     }
     >h2 {
         font-size: 1.8rem;
+        max-width: 90%;
     }
     >p {
         font-size: 15px;
@@ -156,18 +157,57 @@ export const CardStyle = styled.div`
             right: 15px;
             max-width: 35%;
         }
+        
         >div.hide {
             display: none;
         }
         &:hover > .hide{
             display: block;
+        } 
+        @media only screen and (min-width: 768px){
+            >div.hide {
+                display: block;
+            }
         }
     }
-`;
+`
+export const CardShape = styled.div`
+@media only screen and (min-width: 768px){
+    display: grid;
+    ${props => {
+        (props.opt !== 1) ? 
+        css`grid-template-columns: repeat(1, 1fr);` 
+        : css`grid-template-columns: repeat(2, 1fr);` }
+    }
+    grid-gap: 0 15px;
+}
+@media only screen and (min-width: 1024px){
+    grid-template-columns: repeat(2, 1fr);
+}
+`
 
 export const List = styled.ul`
     list-style: none;
     padding: 0;
     text-align: left;
-
 `
+
+export const BodyDesign = styled.div`
+    max-width: 655px;
+    margin: auto;
+    @media only screen and (min-width: 768){
+    }
+    @media only screen and (min-width: 1024px){
+        max-width: 855px;
+    }
+    @media only screen and (min-width: 1440px){
+        max-width: 1055px;
+    }
+`
+
+export const Footer = styled.div`
+
+`;
+export const Button = styled.div`
+
+`;
