@@ -1,0 +1,247 @@
+{
+    "personal" : {
+        "myName" : "Erwin Jared Larios Moreira",
+        "description": "Desarrollo, Aprendo y Mejoro constantemente.",
+        "birhtDate" : "9 Octubre 1998",
+        "address": "14 calle C 5-33 zona 3",
+        "phone": 42869596,
+        "email": "lariosjared@outlook.com",
+        "facebook": "https://www.facebook.com/jared.larios.9/",
+        "linkedInn": "https://www.linkedin.com/in/jared-larios-m1998/"
+    },
+    "education" : {
+        "highschool": {
+            "school": "Colegio Educacion en Linea",
+            "degree": "Bachillerato en Ciencias y Letras",
+            "status": {
+                "currentStatus" : "Graduado",
+                "initDate": "Enero 2016",
+                "graduationDate": "Octubre 2017",
+                "gp": 90,
+                "spotlight": "Ingles y matemáticas promedio: 95 "
+            }
+        },
+        "certificate": [
+            {
+                "college": "BYU-Idaho | Brigham Young University Idaho",
+                "degree": "Computer and Web Programming Certificate",
+                "status": {
+                    "currentStatus" : "Graduado",
+                    "initDate": "Septiembre 2021",
+                    "graduationDate": "Diciembre 2022",
+                    "gp": 90.47,
+                    "spotlight": "Clase Web Fundamentals promedio: A"
+                }
+            },
+            {
+                "college": "BYU-Pathway | Brigham Young University Idaho",
+                "degree": "Pathway Connect Certificate",
+                "status": {
+                    "currentStatus" : "Graduado",
+                    "initDate": "Septiembre 2020",
+                    "graduationDate": "Julio 2021",
+                    "gp": 97.47,
+                    "spotlight": "Primer semestre - promedio: A - 99.01 "
+                }
+            },
+            {
+                "college": "Intecap | CG1",
+                "degree": "Técnico en Electrónica Industrial",
+                "status": {
+                    "currentStatus" : "Graduado",
+                    "initDate": "Enero 2015",
+                    "graduationDate": "Noviembre 2017",
+                    "gp": 80,
+                    "spotlight": "control de procesos promedio: 85 "
+                }
+            }
+        ],
+        "bachelor": {
+            "college": "BYU-Idaho | Brigham Young University Idaho",
+            "degree": "Licenciatura en Tecnología Aplicada BS",
+            "status": [
+                 {
+                    "degree": "Certificate degree",
+                    "myName": "Web and Computer Programming",
+                    "totalClasses": 7,
+                    "passingClasses": ["Programming Building Blocks", "Programming with Functions", "JavaScript Language", "Programming with Classes", "Web Frontend Development I", "Web Fundamentals"],
+                    "missingClasses": ["Career Development"],
+                    "currentClasses": ["Career Development"],
+                    "endDate": "Dic 2022"
+                },
+                {
+                    "degree": "Asociate",
+                    "myName": "System Administration",
+                    "totalClasses": 8,
+                    "passingClasses": ["Networking"],
+                    "missingClasses": ["Network Design I", "Systems Security I", "Math for the Real World", "Operating Systems I", "Writing & Reasoning Foundations", "Adv Writing in Pro Contexts", "Operating Systems II"],
+                    "currentClasses": ["Network Design I"],
+                    "endDate": "Apr 2024"
+                },
+                {
+                    "degree": "Bachelor",
+                    "myName": "Web Development",
+                    "totalClasses": 7,
+                    "passingClasses": [""],
+                    "currentClasses": [""],
+                    "endDate": "Apr 2028"
+                }
+            ]
+        }
+    },
+    "career": [
+        {
+            "contractor": "FIS | VXI",
+            "position": "Asitencia al Cliente",
+            "initTime": "2 Enero, 2023",
+            "endTime": "Ahora",
+            "description": "Representante de asistencia bilingüe al cliente en la cuenta de FIS programa guvernamental en el estado de California Brindando asistencia e informacion.",
+            "spotlight": "Promedio de 98% de QA por llamada",
+            "myBanner": {
+                "image1": "/my-profile/static/media/fis-100.a5714463f6f6a5980fbb.jpg",
+                "image2": "/my-profile/static/media/fis-500.09da891cd2d76bdadbfe.jpg",
+                "image3": "/my-profile/static/media/fis-900.0ff3c1a315054cfe9bd7.jpg"
+              }
+        },
+        {
+            "contractor": "ADT | Capgemini",
+            "position": "Asitencia al Cliente",
+            "initTime": "18 de Julio, 2022",
+            "endTime": "28 de Septiembrem, 2022",
+            "description": "Dar asistencia tecnica basica a clientes sobre sus alamas de seguridad y educarlos en cuanto al uso. Tambien brindar informacion basica financiera y procesos financieros basicos.",
+            "spotlight": "Alto porcentaje de resolucion por llamada recivida.",
+            "myBanner": {
+                "image1": "/my-profile/static/media/adt-100.9c80f6efa01fda02f0d3.jpg",
+                "image2": "/my-profile/static/media/adt-500.91a7df4d847cc827e6b8.jpg",
+                "image3": "/my-profile/static/media/adt-900.719d517cf5f904278657.jpg"
+              }
+        },
+        {
+            "contractor": "UPS | Conduent",
+            "position": "Asitencia al Cliente",
+            "initTime": "Septiembre, 2021",
+            "endTime": "Febrero, 2022",
+            "description": "Representante de asistencia al cliente en la cuenta de UPS dirigido a los clientes de US de paquetes domesticos.",
+            "spotlight": "",
+            "myBanner": {
+                "image1": "/my-profile/static/media/cond-100.aec4d71c5dff27115ab7.jpg",
+                "image2": "/my-profile/static/media/cond-500.f3642798bf7e7f4f3852.jpg",
+                "image3": "/my-profile/static/media/cond-900.20273eb9c2d6176b4caf.jpg"
+              }
+        },
+        {
+            "contractor": "Dental Clinic 3D",
+            "position": "Back Office",
+            "initTime": "Enero 2021",
+            "endTime": "Julio 2022",
+            "description": "Responsable del mail marketing, servicio al cliente, encuestas de satisfacción, reporte de pacientes morosos y del inventario.",
+            "spotlight": "Analisis de mas de 3200 archivos con expedientes clinicos y financieros, digitalizaciones y depuracion fisico y en sistema Dentalink.",
+            "myBanner": {
+                "image1": "/my-profile/static/media/dentalclinic3d-100.fe0ed6ddce728d03b3ac.jpg",
+                "image2": "/my-profile/static/media/dentalclinic3d-500.3ce53319e85988c1f7ec.jpg",
+                "image3": "/my-profile/static/media/dentalclinic3d-900.0f263ba786abd71ba342.jpg"
+              }
+        },
+        {
+            "contractor": "R&J Multiservicios",
+            "position": "Técnico",
+            "initTime": "Octubre 2021",
+            "endTime": "Diciembre 2021",
+            "description": "Responsable de hacer instalaciones electricas, reparacion de equipo, mantenimiento de infraestructura en edificios.",
+            "spotlight": "Temporalmente lider de instalaciones electricas y mantenimiento.",
+            "myBanner": {
+                "image1": "/my-profile/static/media/ryj-100.05c0855077470afec6f2.jpg",
+                "image2": "/my-profile/static/media/ryj-500.cfd647521c1ff175b064.jpg",
+                "image3": "/my-profile/static/media/ryj-900.8049ef67a7adba147e4d.jpg"
+              }
+        },
+        {
+            "contractor": "La Iglesia de Jesucristo",
+            "position": "Voluntario de programa de mejoramiento de vida",
+            "initTime": "Junio 2018",
+            "endTime": "Junio 2020",
+            "description": "Responsable de capacitar, enseñar, servir y apoyar a personas en honduras a mejorar su calidad de vida.",
+            "spotlight": "Capacitar a diversos norteamericanos el español y a adaptarse a las normas y deberes del programa.",
+            "myBanner": {
+                "image1": "/my-profile/static/media/pro-100.237a8dc7848107fc7694.jpg",
+                "image2": "/my-profile/static/media/pro-500.6e849192728d8d8373e8.jpg",
+                "image3": "/my-profile/static/media/pro-900.58204d593bcd2a5ecafa.jpg"
+              }
+        },
+        {
+            "contractor": "Esinsa",
+            "position": "Técnico | Practicante",
+            "initTime": "Agosto 2017",
+            "endTime": "Noviembre 2017",
+            "description": "Elaboración de gabinetes, tableros y paneles eléctricos",
+            "spotlight": "Participación en instalación de tablero de iluminación en el centro comercial Okland Mall. Colaboración en la implementación de instalación electica, para cumplir estándares adecuados, en una fábrica de Cardamomo.",
+            "myBanner": {
+                "image1": "/my-profile/static/media/esinsa-100.ce73a8dd73994c285a6a.jpg",
+                "image2": "/my-profile/static/media/esinsa-500.95c3b1efa57c8dd18648.jpg",
+                "image3": "/my-profile/static/media/esinsa-900.e75f720d7d9827db5dfa.jpg"
+              }
+        }
+    ],
+    "projects": [
+        {
+            "name": "Clone de MineCraft",
+            "progLang" : "Python",
+            "description": "Proyecto personal de un juego local creado con python simulado al juego de Microsoft Minecraft",
+            "link": "https://github.com/JaredLarios/MineCra",
+            "status": "20% Terminado",
+            "myBanner": {
+                "image1": "/my-profile/static/media/minecraft-900.f1bc1c0bd986af616fab.jpg",
+                "image2": "/my-profile/static/media/minecraft-900.f1bc1c0bd986af616fab.jpg",
+                "image3": "/my-profile/static/media/minecraft-500.7b7d73e656ff0b72418e.jpg"
+              }       
+        },
+        {
+            "name": "Clone de Twitter",
+            "progLang" : "React y Firebase",
+            "description": "Proyecto personal de red social con funcionalidad parecidas a las de twitter con renderizacion instantanea, manejo de usuarios y publicaciones. Puede registrarse o ingresar con las credenciales sample@gmail.com con contraseña 123456789.",
+            "link": "https://jed-flashreact.web.app/",
+            "status": "40% Terminado",
+            "myBanner": {
+                "image1": "/my-profile/static/media/easy-900.a5b7fec332417db502a0.jpg",
+                "image2": "/my-profile/static/media/easy-900.a5b7fec332417db502a0.jpg",
+                "image3": "/my-profile/static/media/easy-500.16ea1ef010a94c233ba9.jpg"
+              }       
+        },
+        {
+            "name": "Space Ship",
+            "progLang" : "Python",
+            "description": "Proyecto de universidad BYU de videojuego de naves espaciales.",
+            "link": "https://github.com/JaredLarios/cse210-Team-Project/tree/main/game/space-ship/space-ship",
+            "status": "100% Terminado",
+            "myBanner": {
+                "image1": "/my-profile/static/media/my-space.f60300a0529360a286e0.png",
+                "image2": "/my-profile/static/media/my-space.f60300a0529360a286e0.png",
+                "image3": "/my-profile/static/media/my-space.f60300a0529360a286e0.png"
+              }       
+        },
+        {
+            "name": "Chamber",
+            "progLang" : "HTML, CSS, JavaScript",
+            "description": "Pagina informativa sobre negocios guatemaltecos.",
+            "link": "https://jaredlarios.github.io/wdd230/chamber/",
+            "status": "100% Terminado",
+            "myBanner": {
+                "image1": "/my-profile/static/media/chamber-900.ac8ee9a170d58dcb775c.jpg",
+                "image2": "/my-profile/static/media/chamber-900.ac8ee9a170d58dcb775c.jpg",
+                "image3": "/my-profile/static/media/chamber-500.7725acaa1e8ec6f3fc3d.jpg"
+              }        
+        },
+        {
+            "name": "Temple Inn and Suites",
+            "progLang" : "HTML, CSS, JavaScript",
+            "description": "Proyecto de universidad BYU de pagina informativa y de resercaciones sobre linea de hoteles en los estaods unidos con servicios multiples con enfoque familiar.",
+            "link": "https://jaredlarios.github.io/wdd230/tis/",
+            "status": "100% Terminado",
+            "myBanner": {
+                "image1": "/my-profile/static/media/tis-900.4e1b1b8d2e853c1fca25.jpg",
+                "image2": "/my-profile/static/media/tis-900.4e1b1b8d2e853c1fca25.jpg",
+                "image3": "/my-profile/static/media/tis-500.bf7d41dae352acdae842.jpg"
+              }       
+        }
+    ]
+}
