@@ -3,7 +3,7 @@
   --secondary: #06417ce3;
   --thirth: #032a50e7;
   --dark-back: #06417cf3;
-  --card-back: #06407a65;
+  --card-back: #06407ab9;
   --ovelay-back: #052d559c;
   --transparent: #3b3b3b00;
   --background-body: #000000;
@@ -28,12 +28,12 @@ h1, h2, h3 {
   color: var(--text-header-color);
 }
 .MuiBottomNavigationAction-root {
-  color: var(--text-body-color) !important;
+  color: var(--primary) !important;
 }
 
 .MuiSvgIcon-root.social, 
 .Mui-selected{
-  color: var(--primary) !important;
+  color: var(--secondary) !important;
 }
 
 .LazyLoad {
@@ -43,6 +43,11 @@ h1, h2, h3 {
 
 .is-visible {
   opacity: 1;
+}
+
+#Career, #education {
+  color: var(--primary);
+  font-size: 2.2em;
 }
 
 code {

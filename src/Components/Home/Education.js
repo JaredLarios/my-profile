@@ -47,7 +47,7 @@ const Education = () => {
 
     return ( 
         <CardHolder>
-            <h2>Estudios</h2>
+            <h2 id="education">Estudios</h2>
 
             {/* Buttons */}
             

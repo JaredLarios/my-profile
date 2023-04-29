@@ -3,10 +3,13 @@ import bknd from "../../images/background.jpg"
 
 export const MainContianer = styled.div`
 background-image: url(${bknd});
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: fixed;
+
+@media only screen and (min-width: 768px){       
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 `
 
 export const Header = styled.div`
@@ -15,22 +18,52 @@ export const Header = styled.div`
 
 export const Slider = styled.div`
     width: 100%;
+    position: relative;
+    margin-bottom: 20px;
     >img{
         width: 100%;
         object-fit: cover;
-        position: relative;
+        @media only screen and (max-width: 768px){
+            height: 350px;
+        }
         @media only screen and (min-width: 768px){
             max-height: 450px;
         }
     }
-    >div::after{
+    >div.fade{
         display: block;
-        position: relative;
+        position: absolute;
         background-image: linear-gradient(to top, var(--transparent) 0, white 50%);
-        margin-top: -8px;
+        margin-top: -20px;
         height: 45px;
         width: 100%;
         content: '';
+    }
+    >div.highlight{
+        position: absolute;
+        width: 350px;
+        height: 150px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        >H1 {
+            color: var(--primary);
+            text-align: center;
+            font-size: 2.3em;
+        }
+        >p {
+            color: var(--primary);
+            text-align: center;
+            font-size: 1.1em;
+        }
+        @media only screen and (min-width: 1440px){
+            width: 550px;
+            >H1 {
+                font-size: 3.2em;
+            }
+        }
     }
 `
 
@@ -105,11 +138,11 @@ export const PersonalCard = styled.div`
         }
     }
 @media only screen and (min-width: 1440px){
-    width: 33%;
+    width: 30%;
     margin: 0;
     position: fixed;
-    top: 355px;
-    left: 5%;
+    top: 460px;
+    left: 7%;
 }
 `
 

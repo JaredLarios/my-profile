@@ -2,9 +2,9 @@ import resume from '../../Data/Resume.json'
 import {Header, Slider, PersonalCard} from './style'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import slider900 from '../../images/banner.jpg'
-import slider500 from '../../images/banner.jpg'
-import slider100 from '../../images/banner.jpg'
+import slider900 from '../../images/banner1.jpg'
+import slider500 from '../../images/banner1.jpg'
+import slider100 from '../../images/banner1.jpg'
 import photoPorfile from '../../images/photo.jpg'
 
 
@@ -22,8 +22,11 @@ const Head = (props) => {
                 `}
                 alt='slider'
               />
-            
-            <div></div>
+            <div className='highlight'>
+              <h1>Desarrollador Web</h1>
+              <p>{resume.personal.description}</p>
+            </div>
+            <div className='fade'></div>
           </Slider>
           <PersonalCard>
             <div>
@@ -31,7 +34,6 @@ const Head = (props) => {
             </div>
             <section className='intro'>
               <h1>{resume.personal.myName}</h1>
-              <p>{resume.personal.description}</p>
             </section>
             <section className='p-info'>
             {/* <h2>Personal information:</h2> */}
