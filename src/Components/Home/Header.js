@@ -1,12 +1,12 @@
-import React from 'react'
 import resume from '../../Data/Resume.json'
 import {Header, Slider, PersonalCard} from './style'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import slider900 from '../../images/slider-900.jpg'
-import slider500 from '../../images/slider-500.jpg'
-import slider100 from '../../images/slider-100.jpg'
+import slider900 from '../../images/banner.jpg'
+import slider500 from '../../images/banner.jpg'
+import slider100 from '../../images/banner.jpg'
 import photoPorfile from '../../images/photo.jpg'
+
 
 const Head = (props) => {
 
@@ -15,7 +15,7 @@ const Head = (props) => {
           <Slider>
           <img 
               src={slider900}
-              srcset={`
+              srcSet={`
                 ${slider100} 300w,
                 ${slider500} 768w,
                 ${slider900} 1280w

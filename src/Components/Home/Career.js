@@ -7,6 +7,7 @@ import { CardHolder, CardShape, Banners } from "./style";
 import CodeIcon from '@mui/icons-material/Code';
 import WorkIcon from '@mui/icons-material/Work';
 import { BottomNavigationAction , BottomNavigation} from "@mui/material";
+import LazyLoad from 'react-lazy-load';
 
 import React ,{ useState } from "react";
 
@@ -36,6 +37,7 @@ const Career = () => {
                                 desc={data.description}
                                 spot={data.spotlight}
                                 />
+                                <LazyLoad offset={300}>
                                 <Banners
                                 position={index}
                                 >
@@ -50,6 +52,7 @@ const Career = () => {
                                         />
                                         <div></div>
                                 </Banners>
+                                </LazyLoad>
                             </>
                             )
                         }
@@ -75,6 +78,7 @@ const Career = () => {
                                     link={data.link}
                                     status={data.status}
                                     />
+                                    <LazyLoad offset={300}>
                                     <Banners
                                     position={index}
                                     >
@@ -89,6 +93,7 @@ const Career = () => {
                                         />
                                         <div></div>
                                 </Banners>
+                                </LazyLoad>
                                 </>
                                 )
                             }

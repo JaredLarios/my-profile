@@ -1,15 +1,16 @@
-import React from 'react'
 import Head from './Header'
 import Body from './Body'
 import Menu from '../Menu'
+import {MainContianer} from './style'
 
 const Home = () => {
+
   return (
-    <div>
+    <MainContianer>
       <Menu></Menu>
       <Head></Head>
       <Body></Body>
-    </div>
+    </MainContianer>
   )
 }
 

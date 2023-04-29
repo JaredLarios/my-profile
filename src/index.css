@@ -5,8 +5,8 @@
   --dark-back: #06417cf3;
   --card-back: #06407a65;
   --ovelay-back: #052d559c;
-  --transparent: #85858500;
-  --background-body: #181818;
+  --transparent: #3b3b3b00;
+  --background-body: #000000;
   --text-header-color: white;
   --text-body-color: white;
   --text-header-contrast-color: black;
@@ -34,6 +34,15 @@ h1, h2, h3 {
 .MuiSvgIcon-root.social, 
 .Mui-selected{
   color: var(--primary) !important;
+}
+
+.LazyLoad {
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.is-visible {
+  opacity: 1;
 }
 
 code {

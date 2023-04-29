@@ -1,15 +1,17 @@
 import Home from './Components/Home'
-import MyImages  from './Components/myImages'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MyImages from './Components/myImages';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-  <BrowserRouter>
+    <HashRouter>
     <Routes>
-      <Route path="/" element={<Home />}></Route>
-      <Route path="src/" element={<MyImages />} />
+      <Route path="/" element={<Home />}>
+        <Route index element={<Home />} />
+        <Route path="images" element={<MyImages />} />
+      </Route>
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
   );
 }
 

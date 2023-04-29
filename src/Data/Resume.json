@@ -184,6 +184,18 @@
     ],
     "projects": [
         {
+            "name": "Clone de MineCraft Online",
+            "progLang" : "React, Three.JS y Firebase",
+            "description": "Proyecto personal de un juego local creado con python simulado al juego de Microsoft Minecraft",
+            "link": "https://jaredlarios-my-craft.web.app",
+            "status": "80% Terminado",
+            "myBanner": {
+                "image1": "/my-profile/static/media/minecraft-900.f1bc1c0bd986af616fab.jpg",
+                "image2": "/my-profile/static/media/minecraft-900.f1bc1c0bd986af616fab.jpg",
+                "image3": "/my-profile/static/media/minecraft-500.7b7d73e656ff0b72418e.jpg"
+              }       
+        },
+        {
             "name": "Clone de MineCraft",
             "progLang" : "Python",
             "description": "Proyecto personal de un juego local creado con python simulado al juego de Microsoft Minecraft",

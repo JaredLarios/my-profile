@@ -1,24 +1,34 @@
 import styled, {css} from "styled-components";
+import bknd from "../../images/background.jpg"
+
+export const MainContianer = styled.div`
+background-image: url(${bknd});
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+`
 
 export const Header = styled.div`
 //padding-top: 35px;
 `
 
 export const Slider = styled.div`
+    width: 100%;
     >img{
         width: 100%;
         object-fit: cover;
+        position: relative;
         @media only screen and (min-width: 768px){
             max-height: 450px;
         }
-        position:relative;
     }
     >div::after{
         display: block;
         position: relative;
-        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, var(--background-body) 65%);
-        margin-top: -150px;
-        height: 150px;
+        background-image: linear-gradient(to top, var(--transparent) 0, white 50%);
+        margin-top: -8px;
+        height: 45px;
         width: 100%;
         content: '';
     }
@@ -114,7 +124,7 @@ export const CardHolder = styled.div`
         position: flex !important;
     }
     .options {
-        background-color: var(--background-body);
+        background-color: var(--transparent);
     }
 `;
 export const CardStyle = styled.div`
