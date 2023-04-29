@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/my-profile/static/css/main.a1cb1964.css",
-    "main.js": "/my-profile/static/js/main.e047a503.js",
+    "main.css": "/my-profile/static/css/main.622b38ea.css",
+    "main.js": "/my-profile/static/js/main.e77e3fdb.js",
     "static/js/787.9077b1c8.chunk.js": "/my-profile/static/js/787.9077b1c8.chunk.js",
     "static/media/adt-900.jpg": "/my-profile/static/media/adt-900.719d517cf5f904278657.jpg",
-    "static/media/slider-900.jpg": "/my-profile/static/media/slider-900.dd4034764eb9ee217f32.jpg",
     "static/media/cond-900.jpg": "/my-profile/static/media/cond-900.20273eb9c2d6176b4caf.jpg",
     "static/media/pro-900.jpg": "/my-profile/static/media/pro-900.58204d593bcd2a5ecafa.jpg",
     "static/media/esinsa-900.jpg": "/my-profile/static/media/esinsa-900.e75f720d7d9827db5dfa.jpg",
@@ -12,17 +11,17 @@
     "static/media/fis-900.jpg": "/my-profile/static/media/fis-900.0ff3c1a315054cfe9bd7.jpg",
     "static/media/adt-500.jpg": "/my-profile/static/media/adt-500.91a7df4d847cc827e6b8.jpg",
     "static/media/cond-500.jpg": "/my-profile/static/media/cond-500.f3642798bf7e7f4f3852.jpg",
+    "static/media/banner1.jpg": "/my-profile/static/media/banner1.5ec00df06f3e840f8dbd.jpg",
     "static/media/esinsa-500.jpg": "/my-profile/static/media/esinsa-500.95c3b1efa57c8dd18648.jpg",
     "static/media/ryj-900.jpg": "/my-profile/static/media/ryj-900.8049ef67a7adba147e4d.jpg",
-    "static/media/slider-500.jpg": "/my-profile/static/media/slider-500.7bd0ca8acda0a593dec3.jpg",
     "static/media/dentalclinic3d-500.jpg": "/my-profile/static/media/dentalclinic3d-500.3ce53319e85988c1f7ec.jpg",
+    "static/media/background.jpg": "/my-profile/static/media/background.4a930ddf3e6e424c6db1.jpg",
     "static/media/cond-100.jpg": "/my-profile/static/media/cond-100.aec4d71c5dff27115ab7.jpg",
     "static/media/photo.jpg": "/my-profile/static/media/photo.fe357d4c853ff1c6fd5f.jpg",
     "static/media/adt-100.jpg": "/my-profile/static/media/adt-100.9c80f6efa01fda02f0d3.jpg",
     "static/media/esinsa-100.jpg": "/my-profile/static/media/esinsa-100.ce73a8dd73994c285a6a.jpg",
     "static/media/fis-500.jpg": "/my-profile/static/media/fis-500.09da891cd2d76bdadbfe.jpg",
     "static/media/tis-900.jpg": "/my-profile/static/media/tis-900.4e1b1b8d2e853c1fca25.jpg",
-    "static/media/slider-100.jpg": "/my-profile/static/media/slider-100.b5de3fc5d42c275d3711.jpg",
     "static/media/easy-900.jpg": "/my-profile/static/media/easy-900.a5b7fec332417db502a0.jpg",
     "static/media/ryj-500.jpg": "/my-profile/static/media/ryj-500.cfd647521c1ff175b064.jpg",
     "static/media/pro-500.jpg": "/my-profile/static/media/pro-500.6e849192728d8d8373e8.jpg",
@@ -41,12 +40,12 @@
     "static/media/chamber-100.jpg": "/my-profile/static/media/chamber-100.4126fe3ebdc40cc94d16.jpg",
     "static/media/my-space.png": "/my-profile/static/media/my-space.f60300a0529360a286e0.png",
     "index.html": "/my-profile/index.html",
-    "main.a1cb1964.css.map": "/my-profile/static/css/main.a1cb1964.css.map",
-    "main.e047a503.js.map": "/my-profile/static/js/main.e047a503.js.map",
+    "main.622b38ea.css.map": "/my-profile/static/css/main.622b38ea.css.map",
+    "main.e77e3fdb.js.map": "/my-profile/static/js/main.e77e3fdb.js.map",
     "787.9077b1c8.chunk.js.map": "/my-profile/static/js/787.9077b1c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1cb1964.css",
-    "static/js/main.e047a503.js"
+    "static/css/main.622b38ea.css",
+    "static/js/main.e77e3fdb.js"
   ]
 }
