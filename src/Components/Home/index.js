@@ -1,17 +1,17 @@
-import Head from './Header'
-import Body from './Body'
-import Menu from '../Menu'
-import {MainContianer} from './style'
+import Header from "./Header";
+import Body from "./Body";
+import Footer from "./Footer";
+
 
 const Home = () => {
+    return ( 
+        <>
+            <Header />
+            <Body />
+            <Footer />
+        </>
 
-  return (
-    <MainContianer>
-      <Menu></Menu>
-      <Head></Head>
-      <Body></Body>
-    </MainContianer>
-  )
+     );
 }
-
+ 
 export default Home;

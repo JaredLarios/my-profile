@@ -1,65 +1,18 @@
-import resume from '../../Data/Resume.json'
-import {Header, Slider, PersonalCard} from './style'
-import FacebookIcon from '@mui/icons-material/Facebook'
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import slider900 from '../../images/banner1.jpg'
-import slider500 from '../../images/banner1.jpg'
-import slider100 from '../../images/banner1.jpg'
-import photoPorfile from '../../images/photo.jpg'
 
+import { FaReact, FaFacebookF, FaInstagram } from 'react-icons/fa';
+import { IoLogoJavascript,IoLogoPython } from "react-icons/io5";
+import { BodyStyle } from './style';
 
-const Head = (props) => {
-
-  return (
-      <Header>
-          <Slider>
-          <img 
-              src={slider900}
-              srcSet={`
-                ${slider100} 300w,
-                ${slider500} 768w,
-                ${slider900} 1280w
-                `}
-                alt='slider'
-              />
-            <div className='highlight'>
-              <h1>Desarrollador Web</h1>
-              <p>{resume.personal.description}</p>
-            </div>
-            <div className='fade'></div>
-          </Slider>
-          <PersonalCard>
-            <div>
-              <img src={photoPorfile} alt='me' />
-            </div>
-            <section className='intro'>
-              <h1>{resume.personal.myName}</h1>
-            </section>
-            <section className='p-info'>
-            {/* <h2>Personal information:</h2> */}
-              <ul>
-                <li><strong>Fecha de nacimiento:</strong> {resume.personal.birhtDate}</li>
-                <li><strong>Phone:</strong> {resume.personal.phone}</li>
-                <li><strong>Correo:</strong> {resume.personal.email}</li>
-                <li>
-                  <a href={resume.personal.facebook}> 
-                  <FacebookIcon 
-                    fontSize='large'
-                    className='social'
-                    ></FacebookIcon> 
-                  </a> 
-                  <a href={resume.personal.linkedInn} className='social'> 
-                  <LinkedInIcon 
-                    fontSize='large'
-                    className='social'
-                    ></LinkedInIcon> 
-                  </a>
-                </li>
-              </ul>
-            </section>
-          </PersonalCard>
-      </Header>
-  )
+const Header = () => {
+    return <BodyStyle>
+      <ul>
+        <li><div className='react-div button'><FaReact className='iconReact' /></div></li>
+        <li><IoLogoJavascript className='iconJS button' /></li>
+        <li><IoLogoPython className='iconPy button' /></li>
+        <li><FaFacebookF className='iconFacebook button'/></li>
+        <li><FaInstagram className='iconFacebook button'/></li>
+      </ul>
+    </BodyStyle>
 }
-
-export default Head;
+ 
+export default Header;

@@ -1,5 +1,4 @@
 import Home from './Components/Home'
-import MyImages from './Components/myImages';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -8,7 +7,6 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />}>
         <Route index element={<Home />} />
-        <Route path="images" element={<MyImages />} />
       </Route>
     </Routes>
   </HashRouter>

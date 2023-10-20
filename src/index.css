@@ -1,17 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
 :root {
-  --primary: #47acff;
-  --secondary: #06417ce3;
-  --thirth: #032a50e7;
+  --primary: #ACD7F2;
+  --secondary: #80A7BF;
+  --thirth: #BF834E;
   --dark-back: #06417cf3;
   --card-back: #06407ab9;
   --ovelay-back: #052d559c;
   --transparent: #3b3b3b00;
-  --background-body: #000000;
+  --background-body: #3E4C59;
   --text-header-color: white;
-  --text-body-color: white;
+  --text-body-color: black;
   --text-header-contrast-color: black;
   --text-body-contras-color: black;
   --theme: #06335f;
+
+  --icon-react: #00aeff;
+  --icon-js: yellow;
+  --icon-js-shadow: #838383;
 }
 
 body {
@@ -26,31 +32,5 @@ body {
 }
 h1, h2, h3 {
   color: var(--text-header-color);
-}
-.MuiBottomNavigationAction-root {
-  color: var(--primary) !important;
-}
-
-.MuiSvgIcon-root.social, 
-.Mui-selected{
-  color: var(--secondary) !important;
-}
-
-.LazyLoad {
-  opacity: 0;
-  transition: all 1s ease-in-out;
-}
-
-.is-visible {
-  opacity: 1;
-}
-
-#Career, #education {
-  color: var(--primary);
-  font-size: 2.2em;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Tilt Neon', sans-serif;
 }
