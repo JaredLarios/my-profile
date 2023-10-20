@@ -35,7 +35,43 @@ font-size: 95px;
     }
 
     .iconInstagram {
+        color: white;
+        background: pink;
+        background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    }
 
+    .iconGitHub {
+        color: white;
+        background-color: black;
+    }
+
+    .iconFirebase {
+        background-color: orange;
+    }
+
+    .iconHtml {
+        background-color: orange;
+    }
+
+    .iconCss {
+        background-color: var(--theme);
+    }
+
+    .iconBYU {
+        background-color: var(--theme);
+    }
+
+    .iconThreejs{
+        background-color: white;
+        color: black;
+    }
+
+    .iconFastapi{
+        color: var(--icon-fastapi);
+    }
+
+    .iconNodejs {
+        background-color: white;
     }
 
     .button{
