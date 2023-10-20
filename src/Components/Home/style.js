@@ -1,108 +1,71 @@
 import styled from 'styled-components'
 
 export const BodyStyle = styled.div`
-font-size: 95px;
+    font-size: 95px;
+    h2 {
+        font-size: 25px;
+    }
     >ul li{
         height: 150px;
     }
-    .react-div{
-        background-color: var(--card-back);
-        width: 95px;
-        height: 105px;
+
+`
+
+export const HeaderStyle = styled.div`
+    
+`
+
+export const BannerStyle = styled.div`
+    background-color: black;
+    margin: auto;
+    padding-top: 0; 
+
+    width: 80%;
+    height: 350px; 
+    max-width: 1050px;
+    border-radius: 15px;
+    position: relative;
+    
+
+    >div.card {
+        width: 70%;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0; 
     }
 
-    .iconReact{
+    h1, h2 {
+        text-align: center;
         color: var(--icon-react);
-        animation: spin 75s linear infinite;
-        background-color: var(--transparent);
     }
+    >.iconCode {
+        text-align: center;
+        color: black;
+        font-size: 25px;
+        background-color: var(--icon-react);
+        padding: 5px;
+        border-radius: 15px 0 ;
+    }
+`
 
-    .iconJS{
-        color: yellow;
+export const Image = styled.div`
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 48% 48% 25px 25px;
+    border: black solid 3px;
+    background-color: black;
+
+    left: 0;
+    right: 0; 
+    bottom: -35px;
+
+    >img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
         border-radius: 25px;
     }
-
-    .iconPy{
-        color: gold;
-        background-color: var(--theme);
-    }
-
-    .iconFacebook {
-        color: white;
-        font-size: 75px;
-        padding: 10px 10px; 
-        background-color: var(--theme); 
-    }
-
-    .iconInstagram {
-        color: white;
-        background: pink;
-        background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
-    }
-
-    .iconGitHub {
-        color: white;
-        background-color: black;
-    }
-
-    .iconFirebase {
-        background-color: orange;
-    }
-
-    .iconHtml {
-        background-color: orange;
-    }
-
-    .iconCss {
-        background-color: var(--theme);
-    }
-
-    .iconBYU {
-        background-color: var(--theme);
-    }
-
-    .iconThreejs{
-        background-color: white;
-        color: black;
-    }
-
-    .iconFastapi{
-        color: var(--icon-fastapi);
-    }
-
-    .iconNodejs {
-        background-color: white;
-    }
-
-    .button{
-        border-radius: 15px;
-        transform: translateX(8px) translateY(-8px);
-        box-shadow: -3px 3px var(--icon-js-shadow), -4px 4px var(--icon-js-shadow), -5px 5px var(--icon-js-shadow), -6px 6px var(--icon-js-shadow);
-        &:hover{
-            animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-        }
-    }
-
-
-@keyframes spin {
-  from {transform:rotate(0deg);}
-  to {transform:rotate(360deg);}
-}
-
-
-@keyframes shadow-pop-bl {
-  100% {
-    -webkit-box-shadow: 0 0 var(--icon-js-shadow), 0 0 var(--icon-js-shadow), 0 0 var(--icon-js-shadow), 0 0 var(--icon-js-shadow), 0 0 var(--icon-js-shadow), 0 0 var(--icon-js-shadow), 0 0 var(--icon-js-shadow), 0 0 var(--icon-js-shadow);
-            box-shadow: 0 0 var(--icon-js-shadow), 0 0 var(--icon-js-shadow), 0 0 var(--icon-js-shadow), 0 0 var(--icon-js-shadow), 0 0 var(--icon-js-shadow), 0 0 var(--icon-js-shadow), 0 0 var(--icon-js-shadow), 0 0 var(--icon-js-shadow);
-    -webkit-transform: translateX(0) translateY(0);
-            transform: translateX(0) translateY(0);
-  }
-  0%{
-    -webkit-box-shadow: -3px 3px var(--icon-js-shadow), -4px 4px var(--icon-js-shadow), -5px 5px var(--icon-js-shadow), -6px 6px var(--icon-js-shadow);
-            box-shadow: -3px 3px var(--icon-js-shadow), -4px 4px var(--icon-js-shadow), -5px 5px var(--icon-js-shadow), -6px 6px var(--icon-js-shadow);
-    -webkit-transform: translateX(8px) translateY(-8px);
-            transform: translateX(8px) translateY(-8px);
-  }
-}
-
 `
