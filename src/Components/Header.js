@@ -1,8 +1,10 @@
 import { HeaderStyle,
         Image,
         BannerStyle} from "./style";
-import { FaCode } from "react-icons/fa";
-import me from "../../images/me.png"
+import { SiVisualstudiocode } from "react-icons/si";
+import { FaCode, FaReact } from "react-icons/fa";
+import { IoLogoPython } from "react-icons/io5";
+import me from "../images/me.png"
 
 
 const Header = () => {
@@ -16,6 +18,9 @@ const Header = () => {
                     <Image>
                         <img src={me} alt="logo"/>
                     </Image>
+                    <FaReact className='iconReact react-show' />
+                    <IoLogoPython className='iconReact python-show' />
+                    <SiVisualstudiocode className='iconReact vscode-show'/>
                 </BannerStyle>
             </HeaderStyle>
 }

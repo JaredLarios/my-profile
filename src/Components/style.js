@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 export const BodyStyle = styled.div`
+padding-top: 25px;
+text-align: center;
     font-size: 95px;
     h2 {
         font-size: 25px;
@@ -20,7 +22,7 @@ export const BannerStyle = styled.div`
     margin: auto;
     padding-top: 0; 
 
-    width: 80%;
+    width: 95%;
     height: 350px; 
     max-width: 1050px;
     border-radius: 15px;
@@ -28,11 +30,14 @@ export const BannerStyle = styled.div`
     
 
     >div.card {
-        width: 70%;
+        width: 85%;
         margin: auto;
         position: absolute;
+        top: 35px;
         left: 0;
         right: 0; 
+        align-self: center;
+        z-index: 2;
     }
 
     h1, h2 {
@@ -47,6 +52,39 @@ export const BannerStyle = styled.div`
         padding: 5px;
         border-radius: 15px 0 ;
     }
+
+    .react-show {
+        font-size: 75px;
+        position: absolute;
+        bottom: 75px;
+        left: 13%;
+        z-index: 2;
+        
+        animation: bounce-spin  15s linear infinite;
+    }
+
+    .python-show {
+        color: gold;
+        font-size: 75px;
+        position: absolute;
+        bottom: 35px;
+        right: 10%;
+        z-index: 2;
+        
+        animation: bounce-backspin 10s linear infinite;
+    }
+
+    .vscode-show {
+        animation: none;
+        color: white;
+        font-size: 35px;
+        position: absolute;
+        bottom: 110px;
+        right: 27%;
+        z-index: 2;
+        
+        animation: bounce 17s linear infinite;
+    }
 `
 
 export const Image = styled.div`
@@ -57,10 +95,11 @@ export const Image = styled.div`
     border-radius: 48% 48% 25px 25px;
     border: black solid 3px;
     background-color: black;
+    z-index: 1;
 
     left: 0;
     right: 0; 
-    bottom: -35px;
+    bottom: -20px;
 
     >img{
         width: 100%;
