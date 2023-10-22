@@ -53,6 +53,18 @@ export const BannerStyle = styled.div`
         border-radius: 15px 0 ;
     }
 
+    .iconLang {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 0 15px;
+        &:hover{
+            cursor: pointer;
+            color: white;
+            background-color: var(--icon-fastapi);
+        }
+    }
+
     .react-show {
         font-size: 75px;
         position: absolute;
