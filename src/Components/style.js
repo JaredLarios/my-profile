@@ -4,13 +4,26 @@ export const BodyStyle = styled.div`
 padding-top: 25px;
 text-align: center;
     font-size: 95px;
+
     h2 {
         font-size: 25px;
     }
-    >ul li{
-        height: 150px;
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        border: 3px red solid;
+        > div {
+            border: 3px solid green;
+        }
     }
 
+    .form {
+        color: white !important;
+        width: 95% !important;
+        margin: auto;
+    }
 `
 
 export const HeaderStyle = styled.div`

@@ -11,25 +11,28 @@ const Form = () => {
             autoComplete="off"
             >
                 <TextField 
-                id="email" 
+                id="email"
+                className='form'
                 label="E-mial" 
                 variant="outlined"
                 required/>
 
                 <TextField 
-                id="subject" 
+                id="subject"
+                className='form'
                 label="Subject" 
                 variant="outlined" />
 
                 <TextField 
-                id="message" 
+                id="message"
+                className='form'
                 label="Message" 
                 variant="outlined" 
                 multiline
                 InputProps={{
                     rows: 3
                 }} />
-                <Button variant="outlined" color="primary">Hire me!</Button>
+                <Button variant="outlined" className='form' color="primary">Hire me!</Button>
             </Box>
 }
  

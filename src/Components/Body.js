@@ -30,33 +30,43 @@ const Body = () => {
                 <h2>{data["skills"]["title"]}</h2>
 
                 <h2>{data["technologies"]["title"]}</h2>
-                <SiVisualstudiocode className='iconFacebook button iconDocker '/>
-                <FaGithub className='iconFacebook button iconGitHub'/>
-                <FaDocker className='iconFacebook button iconDocker'/>
+                <div className="technologies grid">
+                    <div><SiVisualstudiocode className='iconFacebook button iconDocker '/></div>
+                    <div><FaGithub className='iconFacebook button iconGitHub'/></div>
+                    <div><FaDocker className='iconFacebook button iconDocker'/></div>
+                </div>
 
                 <h2>{data["progLang"]["title"]}</h2>
-                <FaHtml5 className='iconFacebook button iconHtml'/>
-                <FaCss3Alt className='iconFacebook button iconCss'/>
-                <IoLogoPython className='iconPy button' />
-                <IoLogoJavascript className='iconJS button' />
+                <div className="progLang grid">
+                    <div><FaHtml5 className='iconFacebook button iconHtml'/></div>
+                    <div><FaCss3Alt className='iconFacebook button iconCss'/></div>
+                    <div><IoLogoPython className='iconPy button' /></div>
+                    <div><IoLogoJavascript className='iconJS button' /></div>
+                </div>
 
                 <h2>{data["framework"]["title"]}</h2>
-                <div className='react-div button'><FaReact className='iconReact' /></div>                
-                <SiFastapi className='iconFacebook button iconFastapi'/>
-                <FaNodeJs className='iconFacebook button iconFastapi iconNodejs'/>
-                <SiThreedotjs className='iconFacebook button iconThreejs'/>
+                <div className="framework grid">
+                    <div className='react-div button'><FaReact className='iconReact' /></div>                
+                    <div><SiFastapi className='iconFacebook button iconFastapi'/></div>
+                    <div><FaNodeJs className='iconFacebook button iconFastapi iconNodejs'/></div>
+                    <div><SiThreedotjs className='iconFacebook button iconThreejs'/></div>
+                </div>
                 
                 <h2>{data["db"]["title"]}</h2>
-                <SiMongodb className='iconFacebook button iconFastapi iconNodejs'/>
-                <SiPostgresql className='iconFacebook button'/>
-                <SiMysql className='iconFacebook button'/>
-                <IoLogoFirebase className='iconFacebook button iconFirebase'/>
+                <div className="db grid">
+                    <div><SiMongodb className='iconFacebook button iconFastapi iconNodejs'/></div>
+                    <div><SiPostgresql className='iconFacebook button'/></div>
+                    <div><SiMysql className='iconFacebook button'/></div>
+                    <div><IoLogoFirebase className='iconFacebook button iconFirebase'/></div>
+                </div>
                 
                 <h2>{data["hire"]["title"]}</h2>
-                <FaFacebookF className='iconFacebook button'/>
-                <FaInstagram className='iconFacebook button iconInstagram'/>
-                <FaGithub className='iconFacebook button iconGitHub'/>
-                <FaLinkedinIn className='iconFacebook button'/>
+                <div className="hire grid">
+                    <div><FaFacebookF className='iconFacebook button'/></div>
+                    <div><FaInstagram className='iconFacebook button iconInstagram'/></div>
+                    <div><FaGithub className='iconFacebook button iconGitHub'/></div>
+                    <div><FaLinkedinIn className='iconFacebook button'/></div>
+                </div>
 
                 <Form />
             </BodyStyle>
