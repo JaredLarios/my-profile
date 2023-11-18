@@ -40,6 +40,8 @@ h1, h2, h3 {
   background-color: var(--card-back);
   width: 95px;
   height: 105px;
+  margin: auto;
+  margin-top: 8px;
 }
 
 .iconReact{
@@ -61,8 +63,8 @@ h1, h2, h3 {
 .iconFacebook {
   color: white;
   font-size: 75px;
-  padding: 10px 10px; 
-  background-color: var(--theme); 
+  padding: 10px 10px;
+  background-color: var(--theme);
 }
 
 .iconInstagram {

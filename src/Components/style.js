@@ -13,10 +13,6 @@ text-align: center;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 25px;
-        border: 3px red solid;
-        > div {
-            border: 3px solid green;
-        }
     }
 
     .form {
@@ -33,10 +29,10 @@ export const HeaderStyle = styled.div`
 export const BannerStyle = styled.div`
     background-color: black;
     margin: auto;
-    padding-top: 0; 
+    padding-top: 0;
 
     width: 95%;
-    height: 350px; 
+    height: 350px;
     max-width: 1050px;
     border-radius: 15px;
     position: relative;
@@ -48,7 +44,7 @@ export const BannerStyle = styled.div`
         position: absolute;
         top: 35px;
         left: 0;
-        right: 0; 
+        right: 0;
         align-self: center;
         z-index: 2;
     }
@@ -123,7 +119,7 @@ export const Image = styled.div`
     z-index: 1;
 
     left: 0;
-    right: 0; 
+    right: 0;
     bottom: -20px;
 
     >img{

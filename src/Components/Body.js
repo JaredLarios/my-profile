@@ -1,22 +1,21 @@
 import { BodyStyle } from './style';
 import Form from './Form';
 import { IoLogoJavascript,IoLogoPython, IoLogoFirebase } from "react-icons/io5";
-import {SiThreedotjs, 
-    SiMongodb,
-    SiMysql,
-    SiVisualstudiocode,
-    SiPostgresql,
-    SiFastapi} from "react-icons/si"; 
-import { 
-FaReact, 
-FaFacebookF,
-FaLinkedinIn,
-FaGithub,
-FaHtml5, 
-FaCss3Alt,
-FaDocker,
-FaNodeJs,
-FaInstagram} from 'react-icons/fa';
+import {SiThreedotjs,
+        SiMongodb,
+        SiMysql,
+        SiVisualstudiocode,
+        SiPostgresql,
+        SiFastapi} from "react-icons/si";
+import {FaReact,
+        FaFacebookF,
+        FaLinkedinIn,
+        FaGithub,
+        FaHtml5,
+        FaCss3Alt,
+        FaDocker,
+        FaNodeJs,
+        FaInstagram} from 'react-icons/fa';
 
 import { useLangContext } from "../Context/ContextLang";
 import useLang from "../Hooks/langHook";
@@ -46,7 +45,7 @@ const Body = () => {
 
                 <h2>{data["framework"]["title"]}</h2>
                 <div className="framework grid">
-                    <div className='react-div button'><FaReact className='iconReact' /></div>                
+                    <div><div className='react-div button'><FaReact className='iconReact' /></div></div>
                     <div><SiFastapi className='iconFacebook button iconFastapi'/></div>
                     <div><FaNodeJs className='iconFacebook button iconFastapi iconNodejs'/></div>
                     <div><SiThreedotjs className='iconFacebook button iconThreejs'/></div>
