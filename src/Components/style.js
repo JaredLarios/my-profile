@@ -3,7 +3,10 @@ import styled from 'styled-components'
 export const BodyStyle = styled.div`
 padding-top: 25px;
 text-align: center;
-    font-size: 95px;
+
+    .icon{
+        font-size: calc( var(--icon-size) + 20px );
+    }
 
     h2 {
         font-size: 25px;
@@ -12,7 +15,9 @@ text-align: center;
     .grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 25px;
+        gap: 15px;
+        width: 80%;
+        margin: auto;
     }
 
     .form {

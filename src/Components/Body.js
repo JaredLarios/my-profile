@@ -26,37 +26,84 @@ const Body = () => {
 
     return  <BodyStyle>
                 <h2>{data["who"]["title"]}</h2>
+                <p>{data["who"]["contet"]}</p>
                 <h2>{data["skills"]["title"]}</h2>
+                <p>{data["skills"]["contet"]}</p>
 
                 <h2>{data["technologies"]["title"]}</h2>
                 <div className="technologies grid">
-                    <div><SiVisualstudiocode className='iconFacebook button iconDocker '/></div>
-                    <div><FaGithub className='iconFacebook button iconGitHub'/></div>
-                    <div><FaDocker className='iconFacebook button iconDocker'/></div>
+                    <div>
+                        <p>VS Code</p>
+                        <SiVisualstudiocode className='iconFacebook button iconDocker '/>
+                    </div>
+                    <div>
+                        <p>GitHub</p>
+                        <FaGithub className='iconFacebook button iconGitHub'/>
+                    </div>
+                    <div>
+                        <p>Docker</p>
+                        <FaDocker className='iconFacebook button iconDocker'/>
+                    </div>
                 </div>
 
                 <h2>{data["progLang"]["title"]}</h2>
                 <div className="progLang grid">
-                    <div><FaHtml5 className='iconFacebook button iconHtml'/></div>
-                    <div><FaCss3Alt className='iconFacebook button iconCss'/></div>
-                    <div><IoLogoPython className='iconPy button' /></div>
-                    <div><IoLogoJavascript className='iconJS button' /></div>
+                    <div>
+                        <p>HTML</p>
+                        <FaHtml5 className='iconFacebook button iconHtml'/>
+                    </div>
+                    <div>
+                        <p>CSS</p>
+                        <FaCss3Alt className='iconFacebook button iconCss'/>
+                    </div>
+                    <div>
+                        <p>Python</p>
+                        <IoLogoPython className='icon iconPy button' />
+                    </div>
+                    <div>
+                        <p>JavaScript</p>
+                        <IoLogoJavascript className='icon iconJS button' />
+                    </div>
                 </div>
 
                 <h2>{data["framework"]["title"]}</h2>
                 <div className="framework grid">
-                    <div><div className='react-div button'><FaReact className='iconReact' /></div></div>
-                    <div><SiFastapi className='iconFacebook button iconFastapi'/></div>
-                    <div><FaNodeJs className='iconFacebook button iconFastapi iconNodejs'/></div>
-                    <div><SiThreedotjs className='iconFacebook button iconThreejs'/></div>
+                    <div>
+                        <p>React JS</p>
+                        <div className='react-div button'><FaReact className='iconReact' /></div>
+                    </div>
+                    <div>
+                        <p>Fast Api</p>
+                        <SiFastapi className='iconFacebook button iconFastapi'/>
+                    </div>
+                    <div>
+                        <p>Express JS</p>
+                        <FaNodeJs className='iconFacebook button iconFastapi iconNodejs'/>
+                    </div>
+                    <div>
+                        <p>Three JS</p>
+                        <SiThreedotjs className='iconFacebook button iconThreejs'/>
+                    </div>
                 </div>
                 
                 <h2>{data["db"]["title"]}</h2>
                 <div className="db grid">
-                    <div><SiMongodb className='iconFacebook button iconFastapi iconNodejs'/></div>
-                    <div><SiPostgresql className='iconFacebook button'/></div>
-                    <div><SiMysql className='iconFacebook button'/></div>
-                    <div><IoLogoFirebase className='iconFacebook button iconFirebase'/></div>
+                    <div>
+                        <p>Mongo DB</p>
+                        <SiMongodb className='iconFacebook button iconFastapi iconNodejs'/>
+                    </div>
+                    <div>
+                        <p>Postgre SQL</p>
+                        <SiPostgresql className='iconFacebook button'/>
+                    </div>
+                    <div>
+                        <p>My SQL</p>
+                        <SiMysql className='iconFacebook button'/>
+                    </div>
+                    <div>
+                        <p>Firebase</p>
+                        <IoLogoFirebase className='iconFacebook button iconFirebase'/>
+                    </div>
                 </div>
                 
                 <h2>{data["hire"]["title"]}</h2>

@@ -19,6 +19,9 @@
   --icon-js: yellow;
   --icon-js-shadow: #838383;
   --icon-fastapi: #009485;
+
+
+  --icon-size: 50px;
 }
 
 body {
@@ -36,18 +39,23 @@ h1, h2, h3 {
   font-family: 'Tilt Neon', sans-serif;
 }
 
+p{
+  color: var(--text-header-color);
+  font-family: 'Tilt Neon', sans-serif;
+}
+
 .react-div{
   background-color: var(--card-back);
-  width: 95px;
-  height: 105px;
+  width: calc( var(--icon-size) + 20px );
+  height: calc( var(--icon-size) + 20px );
   margin: auto;
-  margin-top: 8px;
 }
 
 .iconReact{
   color: var(--icon-react);
   animation: spin 75s linear infinite;
   background-color: var(--transparent);
+  font-size: calc( var(--icon-size) + 15px );
 }
 
 .iconJS{
@@ -62,7 +70,7 @@ h1, h2, h3 {
 
 .iconFacebook {
   color: white;
-  font-size: 75px;
+  font-size: var(--icon-size);
   padding: 10px 10px;
   background-color: var(--theme);
 }

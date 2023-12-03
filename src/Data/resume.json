@@ -1,29 +1,29 @@
 {
     "spa": {
         "title": "Desarrollador Web y de Software",
-        "who": { 
+        "who": {
             "title" : "¿Quien soy?",
-            "contet": ""
+            "contet": "Soy desarrollador Full Stack. Me gusta jugar Video Juegos, escuchar música, y ver películas. Estudio Desarrollo Web y de Software."
         },
         "skills": {
             "title": "Habilidades",
-            "content": ""
+            "contet": "Proactivo, autodidacta, comunicación asertiva y mentalidad orientada a resolución de problemas."
         },
         "technologies": {
             "title": "Tecnologías",
-            "content": ""
+            "contet": ""
         },
         "progLang": {
             "title": "Lenguajes de Programación",
-            "content": ""
+            "contet": ""
         },
         "framework": {
             "title": "Librerias y Frameworks",
-            "content": ""
+            "contet": ""
         },
         "db": {
             "title": "Bases de Datos",
-            "content": ""
+            "contet": ""
         },
         "hire": {
             "title": "¡Contratáme!",
@@ -39,29 +39,29 @@
     },
     "eng": {
         "title": "Web and Software Developer",
-        "who": { 
+        "who": {
             "title" : "Who I am?",
             "contet": ""
         },
         "skills": {
             "title": "Skills",
-            "content": ""
+            "contet": ""
         },
         "technologies": {
             "title": "Technologies",
-            "content": ""
+            "contet": ""
         },
         "progLang": {
             "title": "Programming Languages",
-            "content": ""
+            "contet": ""
         },
         "framework": {
             "title": "Frameworks and Libraries",
-            "content": ""
+            "contet": ""
         },
         "db": {
             "title": "DataBases",
-            "content": ""
+            "contet": ""
         },
         "hire": {
             "title": "Hire Me!",
