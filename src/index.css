@@ -128,7 +128,7 @@ p{
   }
 }
 
-.MuiOutlinedInput-notchedOutline, .MuiInputLabel-shrink{
+.MuiOutlinedInput-notchedOutline, .MuiInputLabel-shrink, .MuiInputBase-input{
   color: white !important;
   border-color: white !important;
 }

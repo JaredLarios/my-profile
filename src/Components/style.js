@@ -210,3 +210,11 @@ export const Image = styled.div`
         border-radius: 25px;
     }
 `
+
+export const Foot = styled.div`
+border-top: solid 1px white;
+width: 80%;
+margin: 35px auto;
+padding: 10px 0;
+text-align: center;
+`
