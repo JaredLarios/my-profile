@@ -4,30 +4,31 @@ import { Button, TextField } from '@mui/material';
 const Form = () => {
     return  <Box
             component="form"
+            className='form-box'
             sx={{
             '& > :not(style)': { m: 1, width: '25ch' },
             }}
             noValidate
             autoComplete="off"
             >
-                <TextField 
+                <TextField
                 id="email"
                 className='form'
-                label="E-mial" 
+                label="E-mial"
                 variant="outlined"
                 required/>
 
-                <TextField 
+                <TextField
                 id="subject"
                 className='form'
-                label="Subject" 
+                label="Subject"
                 variant="outlined" />
 
-                <TextField 
+                <TextField
                 id="message"
                 className='form'
-                label="Message" 
-                variant="outlined" 
+                label="Message"
+                variant="outlined"
                 multiline
                 InputProps={{
                     rows: 3
@@ -35,5 +36,5 @@ const Form = () => {
                 <Button variant="outlined" className='form' color="primary">Hire me!</Button>
             </Box>
 }
- 
+
 export default Form;

@@ -26,9 +26,9 @@ const Body = () => {
 
     return  <BodyStyle>
                 <h2>{data["who"]["title"]}</h2>
-                <p>{data["who"]["contet"]}</p>
+                <p className='content' >{data["who"]["contet"]}</p>
                 <h2>{data["skills"]["title"]}</h2>
-                <p>{data["skills"]["contet"]}</p>
+                <p className='content' >{data["skills"]["contet"]}</p>
 
                 <h2>{data["technologies"]["title"]}</h2>
                 <div className="technologies grid">
@@ -107,6 +107,7 @@ const Body = () => {
                 </div>
                 
                 <h2>{data["hire"]["title"]}</h2>
+                <Form />
                 <div className="hire grid">
                     <div><FaFacebookF className='iconFacebook button'/></div>
                     <div><FaInstagram className='iconFacebook button iconInstagram'/></div>
@@ -114,7 +115,6 @@ const Body = () => {
                     <div><FaLinkedinIn className='iconFacebook button'/></div>
                 </div>
 
-                <Form />
             </BodyStyle>
 }
  

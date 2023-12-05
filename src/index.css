@@ -128,6 +128,11 @@ p{
   }
 }
 
+.MuiOutlinedInput-notchedOutline, .MuiInputLabel-shrink{
+  color: white !important;
+  border-color: white !important;
+}
+
 @keyframes bounce-spin {
   100%{ transform: translateY(20px) rotate(0deg);}
   50%{ transform: translate(0px) rotate(180deg); }

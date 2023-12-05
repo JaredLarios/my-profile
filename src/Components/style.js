@@ -22,9 +22,55 @@ text-align: center;
 
     .form {
         color: white !important;
+        border-color: white !important;
         width: 95% !important;
+        margin: 10px auto;
+        >label{
+            color: white !important;
+        }
+    }
+    .form-box {
+        width: 95%;
+        margin: 25px auto;
+    }
+
+@media only screen and (min-width: 768px){
+    h2 {
+        font-size: 27px;
+    }
+
+    .content {
+        font-size: 20px;
+        width: 70%;
         margin: auto;
     }
+
+    .grid {
+        width: 50%;
+        display: flexbox;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .form-box {
+        width: 70%;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .content {
+        width: 60%;
+    }
+
+    .grid {
+        width: 70%;
+        gap: 35px;
+    }
+
+    .form-box {
+        width: 60%;
+    }
+}
 `
 
 export const HeaderStyle = styled.div`
@@ -110,6 +156,36 @@ export const BannerStyle = styled.div`
         z-index: 2;
         
         animation: bounce 17s linear infinite;
+    }
+
+    @media only screen and (min-width: 768px){
+        h1 {
+            font-size: 2.3rem;
+        }
+        .react-show {
+            left: 28%;
+        }
+        .python-show {
+            right: 27%;
+        }
+        .vscode-show {
+            right: 35%;
+        }
+    }
+
+    @media only screen and (min-width: 1440px){
+        h1 {
+            font-size: 2.4rem;
+        }
+        .react-show {
+            left: 35%;
+        }
+        .python-show {
+            right: 33%;
+        }
+        .vscode-show {
+            right: 40%;
+        }
     }
 `
 
