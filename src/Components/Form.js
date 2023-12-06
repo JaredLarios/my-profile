@@ -11,7 +11,10 @@ const Form = () => {
         'message': null
     });
 
-    const [errorMessage, setErrorMessage] = useState(null)
+    const [errorMessage, setErrorMessage] = useState({
+        'email': null,
+        'message': null
+    })
 
     const handleChangeEmail = (e) => {
         setInputValue(  prevInput => {
@@ -37,8 +40,18 @@ const Form = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         setErrorMessage(null)
-        if(!isValidEmail(inputValue.email)){
-            setErrorMessage("Email Is not valid")
+        //TODO: Correct this Error
+        if(!isValidEmail(inputValue.email) || inputValue.message !== null){
+            if(!isValidEmail(inputValue.email)){
+                setErrorMessage(prevError => {
+                    return{...prevError, email: "Email Is not valid"}
+                })
+            }
+            if(inputValue.message !== null){
+                setErrorMessage(prevError => {
+                    return{...prevError, message: "You should type a message"}
+                })
+            }
         }
         //TODO: handle submission value from input values
         else{
@@ -62,7 +75,9 @@ const Form = () => {
             noValidate
             autoComplete="off"
             >
-                { errorMessage? `<span>${errorMessage}</spa>` : `` }
+                <label className='error'>
+                    { errorMessage.email !== null? `${errorMessage.email}` : `` }
+                </label>
                 <TextField
                 id="email"
                 type='emial'
@@ -81,6 +96,9 @@ const Form = () => {
                 onChange={handleChangeSubject}
                 variant="outlined" />
 
+                <label className='error'>
+                    { errorMessage.message !== null? `${errorMessage.message}` : `` }
+                </label>
                 <TextField
                 id="message"
                 className='form'

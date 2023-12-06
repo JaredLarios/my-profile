@@ -44,6 +44,12 @@ p{
   font-family: 'Tilt Neon', sans-serif;
 }
 
+.error {
+  display: block;
+  margin: auto;
+  color: red;
+}
+
 .react-div{
   background-color: var(--card-back);
   width: calc( var(--icon-size) + 20px );
