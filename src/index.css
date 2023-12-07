@@ -20,6 +20,7 @@
   --icon-js-shadow: #838383;
   --icon-fastapi: #009485;
 
+  --error: #df4f4f;
 
   --icon-size: 50px;
 }
@@ -46,8 +47,55 @@ p{
 
 .error {
   display: block;
-  margin: auto;
+  width: 100% !important;
+  margin: auto !important;
   color: red;
+  text-align: center;
+}
+
+.success {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  width: 95% !important;
+  max-width: 780px !important;
+  margin: auto !important;
+  color: white;
+  background-color: var(--icon-fastapi);
+  border-radius: 10px;
+  
+  >p{
+    margin: auto;
+  }
+  >span{
+    position: relative;
+    padding-right: 10px;
+  }
+  >span:hover {
+    cursor: pointer;
+  }
+}
+
+.err{
+  display: block;
+  padding: 5px;
+  width: 95% !important;
+  max-width: 780px !important;
+  margin: auto !important;
+  color: white;
+  background-color: var(--error);
+  border-radius: 10px;
+  
+  >p{
+    margin: auto;
+  }
+  >span{
+    position: relative;
+    padding-right: 10px;
+  }
+  >span:hover {
+    cursor: pointer;
+  }
 }
 
 .react-div{

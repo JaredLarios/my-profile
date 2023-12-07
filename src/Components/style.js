@@ -69,6 +69,7 @@ text-align: center;
 
     .form-box {
         width: 60%;
+        max-width: 780px;
     }
 }
 `
