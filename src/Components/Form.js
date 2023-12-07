@@ -92,17 +92,18 @@ const Form = () => {
     const responseMessage = () => {
 
         if( dResponse >= 200 & dResponse < 300 ){
-            return  <div className='success'>
-                                <p>Message was sent!</p>
+            return  <div className='notification success'>
+                                <p id='notMsg'>Message was sent!</p>
                                 <span onClick={handleClear}>X</span></div>
         } else if ( dResponse >= 400 & dResponse < 500 ){
-            return <p className='err'>
-                                Error {dResponse} try again.
-                                <span onClick={handleClear}>x</span></p>
+            return <div className='notification err'>
+                                <p id='notMsg'> Error {dResponse} try again.</p>
+                                <span onClick={handleClear}>x</span></div>
         } else if ( dResponse >= 500 & dResponse < 600 ){
-            return <p className='err'>
-                                Error {dResponse} Couldn't reach server.
-                                <span onClick={handleClear}>x</span></p>
+            return <div className='notification err'>
+                                <p id='notMsg'>
+                                Error {dResponse} Couldn't reach server.</p>
+                                <span onClick={handleClear}>x</span></div>
         }
         else{
             return <></>
