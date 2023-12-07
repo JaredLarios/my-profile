@@ -10,5 +10,5 @@ const useLang = (lang) => {
 
     return [data];
 }
- 
+
 export default useLang;

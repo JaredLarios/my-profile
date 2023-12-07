@@ -21,7 +21,7 @@ const Header = () => {
                         <h2>{data["title"]}</h2>
                     </div>
                     <FaCode className="iconCode" />
-                    <div 
+                    <div
                     className="iconCode iconLang"
                     onClick={lang.click}
                     >
@@ -38,5 +38,5 @@ const Header = () => {
                 </BannerStyle>
             </HeaderStyle>);
 }
- 
+
 export default Header;
