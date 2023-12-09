@@ -12,6 +12,12 @@ text-align: center;
         font-size: 25px;
     }
 
+    .par {
+        width: 80%;
+        max-width: 880px;
+        margin: auto;
+    }
+
     .grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);

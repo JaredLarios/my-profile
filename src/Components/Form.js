@@ -2,10 +2,15 @@ import { useState, useEffect } from 'react';
 import Box from '@mui/material/Box';
 import { Button, TextField } from '@mui/material';
 import { URL } from '../Api/client'
+import { useLangContext } from "../Context/ContextLang";
+import useLang from "../Hooks/langHook";
 
 // TODO: use request defualt library to consume API
 
 const Form = () => {
+    const lang = useLangContext();
+    const [data] = useLang(lang.languages);
+
     const [inputValue, setInputValue] = useState({
         'email': null,
         'subject': null,
@@ -128,7 +133,7 @@ const Form = () => {
                 id="email"
                 type='email'
                 className='form'
-                label="E-mail"
+                label={data['hire']['contact']}
                 variant="outlined"
                 value={inputValue.email === null ? '' : inputValue.email}
                 onChange={handleChange}
@@ -137,7 +142,7 @@ const Form = () => {
                 <TextField
                 id="subject"
                 className='form'
-                label="Subject"
+                label={data['hire']['subj']}
                 value={inputValue.subject === null ? '' : inputValue.subject}
                 onChange={handleChange}
                 variant="outlined" />
@@ -148,7 +153,7 @@ const Form = () => {
                 <TextField
                 id="message"
                 className='form'
-                label="Message"
+                label={data['hire']['message']}
                 value={inputValue.message === null ? '' : inputValue.message}
                 onChange={handleChange}
                 variant="outlined"
@@ -161,7 +166,7 @@ const Form = () => {
                 type='submit'
                 variant="outlined"
                 className='form'
-                color="primary">Hire me!</Button>
+                color="primary">{data['hire']['button']}</Button>
             </Box>
 }
 

@@ -3,15 +3,15 @@
         "title": "Desarrollador Web y de Software",
         "who": {
             "title" : "¿Quien soy?",
-            "contet": "Soy desarrollador Full Stack. Me gusta jugar Video Juegos, escuchar música, y ver películas. Estudio Desarrollo Web y de Software."
+            "content": "Soy desarrollador Full Stack. Me gusta jugar Video Juegos, escuchar música, y ver películas. Estudio Desarrollo Web y de Software."
         },
         "skills": {
             "title": "Habilidades",
-            "contet": "Proactivo, autodidacta, comunicación asertiva y mentalidad orientada a resolución de problemas."
+            "content": "Proactivo, autodidacta, comunicación asertiva y mentalidad orientada a resolución de problemas."
         },
         "technologies": {
             "title": "Tecnologías",
-            "contet": ""
+            "content": ""
         },
         "progLang": {
             "title": "Lenguajes de Programación",
@@ -19,7 +19,7 @@
         },
         "framework": {
             "title": "Librerias y Frameworks",
-            "contet": ""
+            "content": ""
         },
         "db": {
             "title": "Bases de Datos",
@@ -31,37 +31,39 @@
             "subj": "Asunto",
             "message": "Mensaje",
             "button": "Enviar Mensaje",
-            "download": {
-                "title": "Descargar CV",
-                "link": ""
+            "social": {
+                "facebook": "https://www.facebook.com/jared.larios.9/",
+                "instagram": "https://www.instagram.com/jedlarios98/",
+                "github": "https://github.com/JaredLarios",
+                "linkedin": "https://www.linkedin.com/in/jared-larios-m1998/"
             }
         }
     },
     "eng": {
         "title": "Web and Software Developer",
         "who": {
-            "title" : "Who I am?",
-            "contet": ""
+            "title": "Who I am?",
+            "content": "I'm a Full Stack Developer. I love to play video games, listen to music, and watch movies. I'm studying for a Bachelor's Degree in Applied Technology. (Web and software development)"
         },
         "skills": {
             "title": "Skills",
-            "contet": ""
+            "content": "Proactive, self-reliant, assertive communication and solve problem mindset."
         },
         "technologies": {
             "title": "Technologies",
-            "contet": ""
+            "content": ""
         },
         "progLang": {
             "title": "Programming Languages",
-            "contet": ""
+            "content": ""
         },
         "framework": {
             "title": "Frameworks and Libraries",
-            "contet": ""
+            "content": ""
         },
         "db": {
             "title": "DataBases",
-            "contet": ""
+            "content": ""
         },
         "hire": {
             "title": "Hire Me!",
@@ -69,9 +71,11 @@
             "subj": "Subject",
             "message": "message",
             "button": "Send Message",
-            "download": {
-                "title": "Download Resume",
-                "link": ""
+            "social": {
+                "facebook": "https://www.facebook.com/jared.larios.9/",
+                "instagram": "https://www.instagram.com/jedlarios98/",
+                "github": "https://github.com/JaredLarios",
+                "linkedin": "https://www.linkedin.com/in/jared-larios-m1998/"
             }
         }
     }
