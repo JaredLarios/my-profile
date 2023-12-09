@@ -35,7 +35,7 @@ class PythonOrgSearch(unittest.TestCase):
         email = driver.find_element(By.XPATH, "//INPUT[@id='email']")
         subject = driver.find_element(By.XPATH, "//INPUT[@id='subject']")
         message = driver.find_element(By.XPATH, "//TEXTAREA[@id='message']")
-        submit = driver.find_element(By.XPATH, "//BUTTON[@class='MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium form css-1rwt2y5-MuiButtonBase-root-MuiButton-root']")
+        submit = driver.find_element(By.NAME , "")
 
         email.send_keys(data['email'])
         subject.send_keys(data['subject'])
