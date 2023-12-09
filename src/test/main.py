@@ -20,7 +20,7 @@ class PythonOrgSearch(unittest.TestCase):
 
     def test_serarch_in_python_org(self):
         driver = self.driver
-        driver.get("http://localhost:3000/my-profile")
+        driver.get("https://jaredlarios.github.io/my-profile/")
         self.assertIn("Jared Larios | Resume", driver.title)
         elem = driver.find_element(By.XPATH , '//*[@id="root"]/div[1]/div/div[2]').click()
         #elem.send_keys("manchester united")
@@ -29,7 +29,7 @@ class PythonOrgSearch(unittest.TestCase):
 
     def test_1_send_message(self):
         driver = self.driver
-        driver.get("http://localhost:3000/my-profile")
+        driver.get("https://jaredlarios.github.io/my-profile/")
         driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
 
         email = driver.find_element(By.XPATH, "//INPUT[@id='email']")
@@ -54,7 +54,7 @@ class PythonOrgSearch(unittest.TestCase):
 
     def test_2_send_message_error(self):
         driver = self.driver
-        driver.get("http://localhost:3000/my-profile")
+        driver.get("https://jaredlarios.github.io/my-profile/")
         driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
 
         email = driver.find_element(By.XPATH, "//INPUT[@id='email']")
